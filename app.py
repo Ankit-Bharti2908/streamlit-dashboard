@@ -1715,7 +1715,8 @@ def main():
                 # Content type analysis page
                 display_content_type_details(content_types_df)
                 
-              
+              # Add content type usage trends over time
+                st.markdown('<div class="sub-header">Content Type Usage Trends</div>', unsafe_allow_html=True)
                 
                 # Create month column
                 filtered_tasks['month_year'] = filtered_tasks['date'].dt.strftime('%Y-%m')
@@ -1736,7 +1737,7 @@ def main():
                     x='month_display',
                     y='count',
                     color='content_type',
-                    title='Content Type Usage Over Time',
+                \
                     labels={'count': 'Number of Tasks', 'month_display': 'Month', 'content_type': 'Content Type'},
                     category_orders={'month_display': unique_months},
                     height=500
