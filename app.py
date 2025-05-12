@@ -275,7 +275,7 @@ def plot_monthly_task_volume(tasks_df):
         xaxis_title="",
         yaxis_title="Number of Tasks",
         barmode='stack',
-        margin=dict(l=40, r=40, t=60, b=40)
+        margin=dict(l=40, r=40, t=80, b=40)
     )
     
     st.plotly_chart(fig, use_container_width=True)
