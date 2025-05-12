@@ -854,7 +854,7 @@ def display_project_timeline(projects_df, tasks_df):
     start_date = selected_project_data['start_date']
     end_date = selected_project_data['end_date']
     
-    # Display project overview
+    # Create project overview card
     st.markdown(f"""
     <div class="card">
         <h3>{selected_project_data['project_name']} - {selected_project_data['project_phase']}</h3>
@@ -873,27 +873,6 @@ def display_project_timeline(projects_df, tasks_df):
     
     # Group by month
     monthly_tasks = project_tasks.groupby(['month_year', 'month_display'])
-    
-    # If you want to use streamlit-elements, set up the frame properly
-    st.subheader("Events Timeline (Interactive)")
-    
-    # This is the crucial part - you need to use the with elements() context manager
-    with elements("timeline_elements"):
-        # Now you can use mui components inside this context
-        dashboard.Grid(
-            draggable=False,
-            children=[
-                dashboard.Item(
-                    "header", 
-                    w=12, h=1,
-                    children=[mui.Typography(f"{selected_project} Timeline", variant="h5")]
-                ),
-                # Add more items here as needed
-            ]
-        )
-    
-    # Rest of the function - keep the native Streamlit implementation
-    st.subheader("Project Timeline")
     
     # Display timeline
     for (month_year, month_display), tasks in monthly_tasks:
@@ -937,7 +916,6 @@ def display_project_timeline(projects_df, tasks_df):
         </div>
     </div>
     """, unsafe_allow_html=True)
-
     
 # Team performance analytics with streamlit components
 def display_team_analytics(tasks_df, team_members_df):
