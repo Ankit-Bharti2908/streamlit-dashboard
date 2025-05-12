@@ -839,7 +839,6 @@ def display_task_message_timeline(task_id, tasks_df, messages_df):
     fig.update_layout(height=300, margin=dict(l=40, r=40, t=60, b=40))
     st.plotly_chart(fig, use_container_width=True)
 
-# Project timeline visualization using streamlit-elements
 def display_project_timeline(projects_df, tasks_df):
     st.markdown('<div class="sub-header">Project Timeline</div>', unsafe_allow_html=True)
     
@@ -855,12 +854,15 @@ def display_project_timeline(projects_df, tasks_df):
     start_date = selected_project_data['start_date']
     end_date = selected_project_data['end_date']
     
-    # Display project overview with card component
-    custom_card(
-        title=f"{selected_project_data['project_name']} - {selected_project_data['project_phase']}",
-        text=f"{selected_project_data['description']}\n\n**Duration:** {start_date.strftime('%B %d, %Y')} to {end_date.strftime('%B %d, %Y')}\n\n**Type:** {selected_project_data['project_type']}",
-        key=f"project_timeline_card_{selected_project}"
-    )
+    # Display project overview
+    st.markdown(f"""
+    <div class="card">
+        <h3>{selected_project_data['project_name']} - {selected_project_data['project_phase']}</h3>
+        <p>{selected_project_data['description']}</p>
+        <p><strong>Duration:</strong> {start_date.strftime('%B %d, %Y')} to {end_date.strftime('%B %d, %Y')}</p>
+        <p><strong>Type:</strong> {selected_project_data['project_type']}</p>
+    </div>
+    """, unsafe_allow_html=True)
     
     # Group tasks by month
     project_tasks['month_year'] = project_tasks['date'].dt.strftime('%Y-%m')
@@ -869,60 +871,29 @@ def display_project_timeline(projects_df, tasks_df):
     # Sort by date
     project_tasks = project_tasks.sort_values('date')
     
-    # Group by month (observed=True for categorical data)
-    monthly_tasks = project_tasks.groupby(['month_year', 'month_display'], observed=True)
+    # Group by month
+    monthly_tasks = project_tasks.groupby(['month_year', 'month_display'])
     
-    # Display timeline with streamlit-elements
-    with elements("project_timeline"):
-        items = [
-        # header
-        dashboard.Item(
-            "timeline_header", x=0, y=0, w=12, h=2,
-            children=[ mui.Typography(f"{selected_project} Timeline", variant="h5") ]
-        )
-    ]
-    row = 3
-    for (ym, disp), tasks in monthly_tasks:
-        paper = mui.Paper(
-            elevation=2, sx={"mb":2},
+    # If you want to use streamlit-elements, set up the frame properly
+    st.subheader("Events Timeline (Interactive)")
+    
+    # This is the crucial part - you need to use the with elements() context manager
+    with elements("timeline_elements"):
+        # Now you can use mui components inside this context
+        dashboard.Grid(
+            draggable=False,
             children=[
-                mui.Box(sx={"p":2}, children=[
-                    mui.Typography(disp, variant="h6"),
-                    mui.Typography(f"{len(tasks)} tasks", variant="subtitle1"),
-                    mui.Button("View Tasks", variant="outlined",
-                               onClick={"callback": lambda m=disp:
-                                        html.setAttribute(f"accordion_{m}", "expanded", True)})
-                ]),
-                mui.Divider(),
-                mui.Accordion(
-                    id=f"accordion_{disp}",
-                    children=[
-                        mui.AccordionSummary(expandIcon=mui.icons.ExpandMore(),
-                                             children=[mui.Typography(f"View {len(tasks)} tasks")]),
-                        mui.AccordionDetails(children=[
-                            mui.List(children=[
-                                mui.ListItem(children=[
-                                    mui.ListItemText(
-                                        primary=task["task_name"],
-                                        secondary=(
-                                            f"Assigned: {task['assigned_to']} • "
-                                            f"Status: {task['update_status'].title()}"
-                                        )
-                                    )
-                                ]) for _, task in tasks.iterrows()
-                            ])
-                        ])
-                    ]
-                )
+                dashboard.Item(
+                    "header", 
+                    w=12, h=1,
+                    children=[mui.Typography(f"{selected_project} Timeline", variant="h5")]
+                ),
+                # Add more items here as needed
             ]
         )
-        items.append(dashboard.Item(f"timeline_{ym}", x=row, y=0, w=12, h=8, children=[paper]))
-        row += 8
-
-    dashboard.Grid(draggablePanels=False, children=items)
-
-    # Alternative implementation with streamlit native components
-    st.markdown("### Project Timeline (Alternative View)")
+    
+    # Rest of the function - keep the native Streamlit implementation
+    st.subheader("Project Timeline")
     
     # Display timeline
     for (month_year, month_display), tasks in monthly_tasks:
@@ -967,6 +938,7 @@ def display_project_timeline(projects_df, tasks_df):
     </div>
     """, unsafe_allow_html=True)
 
+    
 # Team performance analytics with streamlit components
 def display_team_analytics(tasks_df, team_members_df):
     st.markdown('<div class="sub-header">Team Performance Analytics</div>', unsafe_allow_html=True)
