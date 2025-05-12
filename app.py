@@ -1715,8 +1715,7 @@ def main():
                 # Content type analysis page
                 display_content_type_details(content_types_df)
                 
-                # Add content type usage trends over time
-                st.markdown('<div class="sub-header">Content Type Usage Trends</div>', unsafe_allow_html=True)
+              
                 
                 # Create month column
                 filtered_tasks['month_year'] = filtered_tasks['date'].dt.strftime('%Y-%m')
