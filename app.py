@@ -1662,24 +1662,21 @@ def main():
                     # Charts in separate container blocks with controlled layout
                     with st.container():
                         plot_monthly_task_volume(filtered_tasks)
-                        #row1, row2 = st.columns(2)
+                        
        
                     with st.container():
                         plot_efficiency_trend(filtered_tasks)
                             
-                        
-                        
-                            
+                                 
                 
                 with dashboard_tabs[2]:
                     with st.container():
-                        col1, col2 = st.columns(2)
+                        plot_task_assignment(filtered_tasks)
                         
-                        with col1:
-                            plot_task_assignment(filtered_tasks)
-                        
-                        with col2:
-                            plot_task_completion_time(filtered_tasks, content_types_df)
+                    with st.container():
+                        plot_task_completion_time(filtered_tasks, content_types_df)
+
+                            
                 
             elif page == "📝 Task Explorer":
                 # Display tasks table with filters
