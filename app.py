@@ -351,8 +351,6 @@ def plot_task_completion_time(tasks_df, content_types_df):
                  height=500)
     
     fig.update_layout(
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
-        xaxis_title="",
         yaxis_title="Number of Tasks",
         barmode='stack',
         margin=dict(l=40, r=40, t=60, b=40)
