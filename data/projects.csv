@@ -1,0 +1,13 @@
+project_id,project_name,project_phase,project_type,start_date,end_date,description
+1,Sanctuary,Phase 1,Residential,2024-08-01,2024-12-31,Luxury residential project with 3 & 4 BHK offerings
+2,Sanctuary_Ph2,Phase 2,Residential,2025-01-06,2025-04-30,Phase 2 of Sanctuary with premium 3.5 & 4.5 BHK options
+3,FP,Phase 1,Residential,2024-08-02,2025-04-22,Floral Pathways residential project
+4,KR,Commercial,Commercial,2024-08-01,2025-04-22,Khyber Range commercial spaces
+5,KH,Luxury,Residential,2024-08-05,2025-02-07,Kabana High luxury apartments
+6,PDO,Phase 1,Plots,2025-01-13,2025-03-13,Province D Olympia plot project with investment focus
+7,YEP,Phase 1,Mixed Use,2024-10-08,2025-02-27,Yamuna Expressway Project with mixed residential and commercial
+8,Events,Internal,Corporate,2024-08-13,2025-03-07,Company events including Family Day and Champions League
+9,Sanctuary_FP,Joint,Residential,2024-11-28,2024-12-16,Combined marketing for Sanctuary and Floral Pathways
+10,FP_KR,Joint,Mixed,2024-08-02,2025-04-17,Combined marketing for Floral Pathways and Khyber Range
+11,Multiple,Various,Various,2024-11-28,2025-02-21,Marketing materials covering multiple projects
+12,Other,Various,Various,2024-07-28,2025-02-21,General marketing and company materials

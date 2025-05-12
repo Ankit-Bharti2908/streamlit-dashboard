@@ -1,0 +1,157 @@
+task_id,date,task_name,quantity,work_scope,assigned_by,assigned_to,assigned_on,delivered_on,update_status,queries,project,content_type,revision_cycles,completion_days
+1,2024-07-28,Olympic Medal Creative,1,Create creative for Manu Bhaker's Olympic medal win,Yuvraj,Sainal,2024-07-28,2024-07-28,sent,none,Other,Social Media,1,0
+2,2024-07-28,Asia Cup Creative,1,Star sports campaign inspired creative for Women's Asia Cup,Yuvraj,Creative Team,2024-07-28,,not prioritized,none,Other,Social Media,0,0
+3,2024-08-01,KR Price List,1,Update price list with new changes,A.K Aquil Khan,Archita,2024-08-01,2024-08-01,completed,none,KR,Documentation,2,0
+4,2024-08-01,Sanctuary Print Ad,1,Need to create print ad,Garvit,Archita,2024-08-01,2024-08-02,sent,none,Sanctuary,Print,1,1
+5,2024-08-02,Aug Deck for FP & KR,1,Create August social media deck,Vaishali,Archita,2024-08-02,2024-08-02,feedback received,none,FP_KR,Social Media,1,0
+6,2024-08-05,KH Opp Doc,1,Create opportunity document with heading changes,Vaishali,Archita,2024-08-05,2024-08-09,completed,none,KH,Documentation,3,4
+7,2024-08-05,Brochure Specifications for KH,1,Create layout and design options,Vaishali,Archita,2024-08-05,2024-08-08,multiple revisions,none,KH,Documentation,3,3
+8,2024-08-05,1000 Trees Map Page,1,Beautification of map,Vaishali,Archita,2024-08-05,2024-08-08,completed,none,Sanctuary,Documentation,2,3
+9,2024-08-05,1000 Trees Revealer Creatives,2,Create revealer creatives,Vaishali,Sainal,2024-08-05,2024-08-13,completed after revisions,none,Sanctuary,OOH,3,8
+10,2024-08-05,Independence Day Creative,1,Create static post instead of video,Garvit,Sainal,2024-08-05,2024-08-06,options shared,none,Other,Social Media,2,1
+11,2024-08-08,Hariyali Teej Creative,1,Create creative for Teej celebration,Garvit,Sainal,2024-08-08,2024-08-08,completed,none,Other,Social Media,2,0
+12,2024-08-09,KH Images Selection,1,Select images for KH brochure,Vaishali,Archita,2024-08-09,2024-08-12,completed,none,KH,Documentation,1,3
+13,2024-08-12,KH Brochure,1,Create brochure with selected images,Vaishali,Archita,2024-08-12,2024-08-16,print file shared,none,KH,Documentation,3,4
+14,2024-08-12,Sanctuary Teasers,7,Create teaser creatives for OOH,Yuvraj,Sainal,2024-08-12,2024-08-13,completed,none,Sanctuary,OOH,2,1
+15,2024-08-12,Sanctuary Teasers for WhatsApp,7,Create WhatsApp versions with/without IVR,Vaishali,Sainal,2024-08-12,2024-08-13,completed,none,Sanctuary,WhatsApp,2,1
+16,2024-08-13,Sanctuary Hoarding Adaptation,2,Adapt teasers for hoarding (2:1 ratio),Vaishali,Archita,2024-08-13,2024-08-13,completed,none,Sanctuary,OOH,1,0
+17,2024-08-13,WA Creatives for FP & KR,5,Create WhatsApp creatives with descriptors,Vaishali,Sainal,2024-08-13,2024-08-14,completed,none,FP_KR,WhatsApp,1,1
+18,2024-08-13,Happy Streets Chief Guest Creative,2,Create announcement for Manu Bhaker,Yuvraj,Sainal,2024-08-13,2024-08-13,completed,none,Events,Social Media,2,0
+19,2024-08-14,Water ATM Creative,4,Create water ATM adaptations,Garvit,Archita,2024-08-14,2024-08-14,completed,none,Other,Print,2,0
+20,2024-08-16,Sanctuary Brochure Changes,1,Incorporate feedback and new images,Garvit,Archita,2024-08-16,2024-08-24,multiple revisions,none,Sanctuary,Documentation,4,8
+21,2024-08-19,Teaser Hoarding Text Updates,7,Fix legibility issues in text,Yuvraj,Sainal,2024-08-19,2024-08-19,completed,none,Sanctuary,OOH,1,0
+22,2024-08-19,Revealers OOH,2,Create OOH files for revealers,Garvit,Archita,2024-08-19,2024-08-20,file shared,none,Sanctuary,OOH,2,1
+23,2024-08-20,Digital Standees for Sanctuary,6,Create standee animations with/without IVR,Vaishali,Sainal,2024-08-20,2024-08-21,completed,none,Sanctuary,Digital,1,1
+24,2024-08-21,Payment Sheet for Sanctuary,1,Create payment details sheet with QR codes,Vaishali,Archita,2024-08-21,2024-08-21,completed,none,Sanctuary,Documentation,2,0
+25,2024-08-22,Happy Streets ILU Creative,1,Create creative for Happy Streets event,Garvit,Sainal,2024-08-22,2024-08-22,completed,none,Events,Print,1,0
+26,2024-08-23,Sanctuary Watch Out Creative,1,Create creative for print ad,Vaishali,Archita,2024-08-23,2024-08-23,completed,none,Sanctuary,Print,1,0
+27,2024-08-24,Print Ad for Sanctuary,2,Create front and back pages with disclaimer,Garvit,Sainal,2024-08-24,2024-08-25,completed,none,Sanctuary,Print,2,1
+28,2024-08-26,Happy Streets PO Video,1,Create video with feedback implementation,Garvit,Sainal,2024-08-26,2024-08-28,completed,none,Events,Video,3,2
+29,2024-08-26,Preview Home Video,1,Create video with timing adjustments,Vaishali,Archita,2024-08-26,2024-08-27,completed,none,Sanctuary,Video,2,1
+30,2024-08-28,RERA Received Creative,1,Create announcement for RERA approval,Yuvraj,Archita,2024-08-28,2024-08-28,completed,none,Sanctuary,Digital,3,0
+31,2024-08-28,Payment Link Creative,1,Create payment details with hyperlinked PDF,Vaishali,Archita,2024-08-28,2024-08-28,completed,none,Sanctuary,Documentation,2,0
+32,2024-08-29,Application Form for Sanctuary,1,Create form with all required fields,Vaishali,Archita,2024-08-29,2024-10-05,multiple revisions,none,Sanctuary,Documentation,4,37
+33,2024-08-29,1000 Trees Map,1,Beautification of map with pointer adjustments,Vaishali,Archita,2024-08-29,2024-08-30,completed,none,Sanctuary,Documentation,2,1
+34,2024-08-30,Launch Ad Creative,2,Create OOH creatives for project launch,Garvit,Sainal,2024-08-30,2024-08-30,completed,none,Sanctuary,OOH,2,0
+35,2024-09-02,Sanctuary Allotment Backdrop,3,Create backdrops for welcome registration photo op,Garvit,Archita,2024-09-02,2024-09-03,completed,none,Sanctuary,Event Materials,2,1
+36,2024-09-02,Sanctuary Location Creative,1,Create hyperlinked location creative,Vaishali,Archita,2024-09-02,2024-09-02,completed,none,Sanctuary,Digital,1,0
+37,2024-09-03,Watch Out Creative for HT City,1,Create for Thursday's print ad,Garvit,Sainal,2024-09-03,2024-09-03,completed,none,Sanctuary,Print,1,0
+38,2024-09-03,Kabana High Price List Design,1,Create price list with type details,Vaishali,Archita,2024-09-03,2024-09-03,completed,none,KH,Documentation,2,0
+39,2024-09-04,CP Meet Invite,1,Create invite with hyperlinked location,Vaishali,Archita,2024-09-04,2024-09-04,completed,none,Other,Event Materials,2,0
+40,2024-09-10,Sanctuary Social Media Creatives,6,Create creatives highlighting USPs,Vaishali,Archita,2024-09-10,2024-09-12,completed,none,Sanctuary,Social Media,2,2
+41,2024-09-12,Sanctuary Application Form Updates,1,Update form with new disclaimers,Garvit,Archita,2024-09-12,2024-09-12,completed,none,Sanctuary,Documentation,1,0
+42,2024-09-16,EOI Window Videos,9,Create 9-day countdown series,Yuvraj,Sainal,2024-09-16,2024-09-18,completed,none,Sanctuary,Video,2,2
+43,2024-09-16,Award Video,1,Create video for Bonheur Avenue award,Vaishali,Sainal,2024-09-16,2024-09-19,completed with revisions,none,Other,Video,3,3
+44,2024-09-19,FP Print Ad Creative,3,Create front and back page options,Garvit,Sainal,2024-09-19,2024-10-04,multiple revisions,none,FP,Print,4,15
+45,2024-09-19,Laptop Banner,2,Create banner for Sanctuary,Vaishali,Archita,2024-09-19,2024-09-19,completed,none,Sanctuary,Digital,2,0
+46,2024-09-23,Individual USP Videos,5,Create separate videos for each USP,Vaishali,Archita,2024-09-23,2024-09-25,completed,none,Sanctuary,Video,1,2
+47,2024-09-26,Festive Creatives for FP,2,Create client and CP versions,Vaishali,Archita,2024-09-26,2024-09-26,completed,none,FP,Social Media,2,0
+48,2024-09-27,KH Brochure Updates,1,Update brochure with new images and disclaimers,Vaishali,Archita,2024-09-27,2024-09-30,completed,none,KH,Documentation,2,3
+49,2024-09-30,Sanctuary Price List,1,Create with specific pricing details,Vaishali,Sainal,2024-09-30,2024-10-04,completed,none,Sanctuary,Documentation,2,4
+50,2024-09-30,KH Brochure Leaflets,3,Create A5 leaflets with North arrow corrections,Vaishali,Archita,2024-09-30,2024-10-06,completed,none,KH,Documentation,3,6
+51,2024-10-03,Sanctuary 7-Day Ad,2,Create front and back pages for HT City,Garvit,Archita,2024-10-03,2024-10-04,completed,none,Sanctuary,Print,2,1
+52,2024-10-04,Sanctuary Customer Emailer,1,Create emailer for client communication,Yuvraj,Sainal,2024-10-04,2024-10-04,completed,none,Sanctuary,Digital,2,0
+53,2024-10-07,Grand Allotment Creative,1,Create invite with venue and date details,Yuvraj,Archita,2024-10-07,2024-10-07,completed,none,Sanctuary,Event Materials,2,0
+54,2024-10-07,KYC Checklist Creative,1,Create list for allotment day participants,Yuvraj,Archita,2024-10-07,2024-10-07,completed,none,Sanctuary,Documentation,3,0
+55,2024-10-07,Upgrade Offer Leaflet,1,Create for 3.5 BHK clients to upgrade to 4.5 BHK,Vaishali,Archita,2024-10-07,2024-10-07,completed,none,Sanctuary,Print,2,0
+56,2024-10-08,FP WhatsApp Creatives,4,Create client and CP versions,Vaishali,Sainal,2024-10-08,,in progress,none,FP,WhatsApp,1,0
+57,2024-10-08,Sanctuary Sold Out Ad,1,Create concepts for sold out announcement,Yuvraj,Sainal,2024-10-08,,in progress,none,Sanctuary,Print,0,0
+58,2024-10-08,Yamuna Expressway Project,1,Develop creative ideas for new project,Garvit,Sainal,2024-10-08,,in progress,none,YEP,Campaign,0,0
+59,2024-11-28,San WA Creatives & Floral,2,Creative development for WhatsApp,Vaishali,Sainal,2024-11-28,2024-11-28,sent,none,Sanctuary_FP,WhatsApp,1,0
+60,2024-11-28,Bold text in box and share,1,Revision to make text bold in box,Yuvraj,Sainal,2024-11-28,2024-11-28,sent,none,Other,Digital,1,0
+61,2024-11-28,Digital Creatives,4,Send by EOD or morning for team sharing,Garvit,Sainal,2024-11-28,2024-11-28,sent,none,Multiple,Digital,1,0
+62,2024-11-29,Remove express interest and IVR,1,Revision to remove text elements,Garvit,Sainal,2024-11-29,2024-11-29,completed,none,Sanctuary,WhatsApp,1,0
+63,2024-11-29,San 105 WhatsApp Creative no IVR,2,Create version without IVR number,Vaishali,Sainal,2024-11-29,2024-11-29,sent,none,Sanctuary,WhatsApp,1,0
+64,2024-11-29,Project USPs Video,1,Create video showcasing project USPs,Vaishali,Archita,2024-11-29,2024-12-01,in progress,none,Sanctuary,Video,2,2
+65,2024-11-29,Print Ad Files,2,Back Page and Front Page ad files,Garvit,Sainal,2024-11-29,2024-11-29,sent,none,Sanctuary,Print,1,0
+66,2024-12-02,San 105 Client & CP Creatives,2,Create WhatsApp creatives (1 each),Vaishali,Sainal,2024-12-02,2024-12-02,sent,none,Sanctuary,WhatsApp,1,0
+67,2024-12-02,FP Client & CP Creatives,2,Create WhatsApp creatives (1 each),Vaishali,Sainal,2024-12-02,2024-12-02,sent,none,FP,WhatsApp,1,0
+68,2024-12-02,San 105 Social Media Creatives,2,Create Instagram posts,Vaishali,Archita,2024-12-02,2024-12-02,sent with feedback,none,Sanctuary,Social Media,2,0
+69,2024-12-03,San 105 Survey Creative,1,Create demographic form creative with incentive,Vaishali,Sainal,2024-12-03,2024-12-04,completed,none,Sanctuary,Digital,2,1
+70,2024-12-03,CP Meet Invite,3,Create invite with different time slots,Vaishali,Sainal,2024-12-03,2024-12-09,completed,none,Other,Event Materials,3,6
+71,2024-12-04,Sanctuary 105 Price List updates,1,Add new payment plan (70:30),Vaishali,Sainal,2024-12-04,2024-12-04,completed,none,Sanctuary,Documentation,1,0
+72,2024-12-04,San 105 Brand Campaign,1,Develop campaign ideas,Vaishali,Sainal,2024-12-04,2024-12-04,presented,none,Sanctuary,Campaign,1,0
+73,2024-12-05,Site Branding Panels,6,Create branding panels for Sanctuary,Yuvraj,Sainal,2024-12-05,2024-12-05,sent,none,Sanctuary,OOH,1,0
+74,2024-12-09,San 105 Client & CP Creatives,4,Create WhatsApp creatives (2 each),Vaishali,Sainal,2024-12-09,2024-12-09,feedback taken,none,Sanctuary,WhatsApp,2,0
+75,2024-12-09,FP Client & CP Creatives,4,Create WhatsApp creatives (2 each),Vaishali,Sainal,2024-12-09,2024-12-09,feedback taken,none,FP,WhatsApp,2,0
+76,2024-12-09,YXP Campaign Ad,1,Create campaign advertisement,Yuvraj,Sainal,2024-12-09,2024-12-09,shared high res,none,YEP,Print,1,0
+77,2024-12-09,Project USPs Video followup,1,Follow up on video development,Vaishali,Archita,2024-12-09,2024-12-09,discussed,none,Sanctuary,Video,1,0
+78,2024-12-09,Coffee Table Book,1,Development and ideation,Vaishali,Archita,2024-12-09,2024-12-12,draft shared,none,Other,Documentation,2,3
+79,2024-12-10,Print file for Sanctuary 105 Ad,2,Send front and back page print files,Vaishali,Archita,2024-12-10,2024-12-10,sent,none,Sanctuary,Print,1,0
+80,2024-12-11,San 105 Wall Art Options,3,Create wall art designs,Vaishali,Sainal,2024-12-11,2024-12-20,pending approval,none,Sanctuary,OOH,2,9
+81,2024-12-12,Watch Out Creative,1,Create ad announcement for publication,Garvit,Sainal,2024-12-12,2024-12-12,completed,none,Sanctuary,Print,1,0
+82,2024-12-14,ATS HK Family Day Teasers,3,Create teasers for company event,Yuvraj,Sainal,2024-12-14,2025-01-02,completed,none,Events,Digital,3,19
+83,2024-12-14,ATS HK Family Day Logo,1,Design logo for Family Day event,Yuvraj,Sainal,2024-12-14,2024-12-30,completed,none,Events,Digital,3,16
+84,2024-12-16,San 105 & FP WhatsApp Creatives,2,Create WhatsApp creatives with iPhone offer,Vaishali,Sainal,2024-12-16,2024-12-16,completed,none,Sanctuary_FP,WhatsApp,3,0
+85,2024-12-16,KR WhatsApp Creatives,2,Create WhatsApp creatives for Khyber Range,Vaishali,Malvika,2024-12-16,2024-12-16,shared for feedback,none,KR,WhatsApp,3,0
+86,2024-12-16,DND Pole Kiosk Designs,3,Create designs for pole branding,Yuvraj,Sainal,2024-12-16,2025-01-24,multiple revisions,none,Other,OOH,4,39
+87,2024-12-20,Christmas & New Year Creative,1,Create festive season creative,Yuvraj,Sainal,2024-12-20,2024-12-23,completed,none,Other,Social Media,2,3
+88,2024-12-20,New Year Video,1,Create video for New Year,Yuvraj,Sainal,2024-12-20,2024-12-31,completed,none,Other,Video,2,11
+89,2024-12-21,KR Backlit Site Branding,2,Create two sizes of backlit panels,A.K Aquil Khan,Malvika,2024-12-21,2024-12-21,completed,none,KR,OOH,1,0
+90,2024-12-23,San 105 Price Revised Creative,2,Create price revision announcement,Vaishali,Sainal,2024-12-23,2024-12-26,completed,none,Sanctuary,WhatsApp,2,3
+91,2024-12-26,KR Digital Campaign Creative,4,Create campaign creatives for Khyber Range,Vaishali,Sainal,2024-12-26,2024-12-27,completed,none,KR,Digital,2,1
+92,2024-12-27,Family Day Collaterals,8,Create various event materials,Vaishali,Sainal,2024-12-27,2025-01-08,completed,none,Events,Event Materials,3,12
+93,2024-12-28,San 105 Backdrop & Standees,3,Create exhibition materials,Vaishali,Sainal,2024-12-28,2025-01-27,completed,none,Sanctuary,Event Materials,2,30
+94,2025-01-02,Price Revision WA Creative,2,Create WhatsApp creatives,Vaishali,Sainal,2025-01-02,2025-01-03,completed,none,Sanctuary,WhatsApp,2,1
+95,2025-01-03,Champions League Creatives,3,Create cricket tournament materials,Yuvraj,Sainal,2025-01-03,2025-02-13,completed,none,Events,Event Materials,4,41
+96,2025-01-06,San Phase 2 Campaign,2,Develop campaign concepts,Vaishali,Sainal,2025-01-06,2025-02-13,multiple revisions,none,Sanctuary_Ph2,Campaign,4,38
+97,2025-01-07,Republic Day Creative,1,Create holiday creative,Yuvraj,Sainal,2025-01-07,2025-01-24,completed,none,Other,Social Media,2,17
+98,2025-01-08,Kabana High OOH Creative,1,Create creative with HDFC logo,Vaishali,Sainal,2025-01-08,2025-01-08,completed,none,KH,OOH,1,0
+99,2025-01-13,PDO Campaign Deck,1,Develop campaign concepts,Vaishali,Sainal,2025-01-13,2025-01-30,multiple revisions,none,PDO,Campaign,4,17
+100,2025-01-14,Social Media Posts,6,Create unique posts for projects,Vaishali,Archita,2025-01-14,2025-01-15,completed,none,Multiple,Social Media,1,1
+101,2025-01-17,San 105 Direction Signage,2,Create signage for navigation,Vaishali,Sainal,2025-01-17,2025-01-17,completed,none,Sanctuary,OOH,1,0
+102,2025-01-20,San 105 Print Ad Changes,2,Update front and back page ads,Vaishali,Sainal,2025-01-20,2025-01-21,completed,none,Sanctuary,Print,2,1
+103,2025-01-21,San 105 Watch Out,1,Create watch out creative,Vaishali,Sainal,2025-01-21,2025-01-21,completed,none,Sanctuary,Print,1,0
+104,2025-01-24,San 105 Hoarding Design,2,Create two layout options,Vaishali,Sainal,2025-01-24,2025-01-27,completed,none,Sanctuary,OOH,2,3
+105,2025-02-06,CCRK Developers LLP Logo,1,Design new logo,Vaishali,Sainal,2025-02-06,,in progress,none,Other,Digital,0,0
+106,2025-02-06,PDO Brochure Layouts,1,Design brochure layouts,Vaishali,Sainal,2025-02-06,,in progress,none,PDO,Documentation,0,0
+107,2025-02-07,KH Retail Campaign,1,Develop campaign concepts,Vaishali,Sainal,2025-02-07,,in progress,none,KH,Campaign,0,0
+108,2025-02-20,PDO Logo Design,1,Logo design for Province D Olympia,Vaishali,Sainal,2025-02-20,2025-02-24,completed,none,PDO,Digital,2,4
+109,2025-02-20,PDO Deck Teasers,2,Design OOH & WhatsApp teasers,Vaishali,Sainal,2025-02-20,2025-02-24,completed,none,PDO,WhatsApp,1,4
+110,2025-02-21,Social Media Ideas,4,Static/carousel/story/video content for FP/San/KR,Vaishali,Sainal,2025-02-21,2025-02-25,completed,none,Multiple,Social Media,1,4
+111,2025-02-21,Logo Design,1,Create options for review,Vaishali,Sainal,2025-02-21,2025-02-24,completed,none,Other,Digital,2,3
+112,2025-02-21,San Ph 2 Campaign,1,Develop campaign concepts,Vaishali,Sainal,2025-02-21,2025-02-28,completed,none,Sanctuary_Ph2,Campaign,3,7
+113,2025-02-21,PDO Price Revision,1,Update marketing material price,Vaishali,Sainal,2025-02-21,2025-02-21,completed,none,PDO,Documentation,1,0
+114,2025-02-24,PDO Teasers,2,WhatsApp & Hoarding teasers,Vaishali,Sainal,2025-02-24,2025-02-24,completed,none,PDO,WhatsApp,1,0
+115,2025-02-24,PDO Opp Doc,1,Create 4/6 pager opportunity document,Vaishali,Sainal,2025-02-24,2025-03-03,completed,none,PDO,Documentation,3,8
+116,2025-02-24,PDO Standee & Canopy,2,Design standee and canopy,Vaishali,Sainal,2025-02-24,2025-02-28,completed,none,PDO,Event Materials,2,4
+117,2025-02-24,PDO Logo with Address,3,Create open file in jpeg/png/pdf,Vaishali,Sainal,2025-02-24,2025-02-24,completed,none,PDO,Digital,1,0
+118,2025-02-24,Radio Jingles,2,Create radio jingle scripts,Vaishali,Sainal,2025-02-24,2025-03-05,completed,none,PDO,Audio,3,10
+119,2025-02-25,PDO Opp Doc Copy,1,Create copy for opportunity document,Vaishali,Sainal,2025-02-25,2025-02-25,shared,none,PDO,Documentation,1,0
+120,2025-02-25,PDO WhatsApp Creatives,4,Create WA creatives with IPO theme,Vaishali,Sainal,2025-02-25,2025-02-27,completed,none,PDO,WhatsApp,2,2
+121,2025-02-25,Sanctuary Status Update,1,Provide update on campaign status,Yuvraj,Sainal,2025-02-25,2025-02-25,shared,none,Sanctuary,Documentation,1,0
+122,2025-02-25,Happy Streets Season 3 Script,1,Write script for video,Yuvraj,Sainal,2025-02-25,2025-03-05,completed,none,Events,Video,3,9
+123,2025-02-27,PDO OC RERA Video,1,Create video announcing RERA approval,Vaishali,Sainal,2025-02-27,2025-03-05,completed,none,PDO,Video,2,7
+124,2025-02-27,PDO GIF,1,Combine 5 teasers - PLOT/LAND/ASSET/GROW/ROI,Vaishali,Sainal,2025-02-27,2025-03-12,completed,none,PDO,Digital,2,14
+125,2025-02-27,San Ph 2 Print Ad,2,Design front and back page,Vaishali,Sainal,2025-02-27,2025-02-28,completed,none,Sanctuary_Ph2,Print,2,1
+126,2025-02-27,San Ph 2 OOH Creative,2,Create outdoor advertising layouts,Vaishali,Sainal,2025-02-27,2025-02-28,completed,none,Sanctuary_Ph2,OOH,2,1
+127,2025-02-28,PDO Ad & OOH,2,Create print ad and outdoor layouts,Vaishali,Sainal,2025-02-28,2025-03-06,completed,none,PDO,Print,3,7
+128,2025-02-28,San Ph 2 Teaser,3,Create multi-day launch teasers,Vaishali,Sainal,2025-02-28,2025-02-28,completed,none,Sanctuary_Ph2,Digital,2,0
+129,2025-02-28,Sanctuary Backdrop,1,Update event backdrop design,Vaishali,Sainal,2025-02-28,2025-02-28,completed,none,Sanctuary,Event Materials,1,0
+130,2025-03-03,Application Form Change,1,Update application form for San Phase 1,Vaishali,Sainal,2025-03-03,2025-03-03,completed,none,Sanctuary,Documentation,1,0
+131,2025-03-03,Happy Streets AV,1,Create season 3 video,Yuvraj,Sainal,2025-03-03,2025-03-07,completed,none,Events,Video,2,4
+132,2025-03-04,PDO RERA AV,1,Create announcement video for RERA,Vaishali,Archita,2025-03-04,2025-03-05,completed,none,PDO,Video,2,1
+133,2025-03-04,San Ph 2 Opp Doc,1,Update opportunity document,Vaishali,Sainal,2025-03-04,2025-03-07,completed,none,Sanctuary_Ph2,Documentation,2,3
+134,2025-03-04,San Ph 2 WhatsApp Creative,4,Create teaser WhatsApp messages,Vaishali,Sainal,2025-03-04,2025-03-06,completed,none,Sanctuary_Ph2,WhatsApp,2,2
+135,2025-03-04,PDO Standee Creative,4,Create standee designs,Vaishali,Sainal,2025-03-04,2025-03-06,completed,none,PDO,Event Materials,2,2
+136,2025-03-05,PDO Video Styles,1,Create concepts for OC video,Vaishali,Sainal,2025-03-05,2025-03-05,shared,none,PDO,Video,1,0
+137,2025-03-05,PDO Ad Changes,2,Revise front and back pages,Vaishali,Sainal,2025-03-05,2025-03-06,completed,none,PDO,Print,2,1
+138,2025-03-06,San Ph 2 Ad Layouts,3,Create ad layout options,Vaishali,Sainal,2025-03-06,2025-03-06,completed,none,Sanctuary_Ph2,Print,2,0
+139,2025-03-06,PDO Logo Final,1,Finalize logo design,Vaishali,Sainal,2025-03-06,2025-03-06,completed,none,PDO,Digital,1,0
+140,2025-03-07,San Ph 2 Brochure,1,Create project brochure,Vaishali,Sainal,2025-03-07,2025-03-10,completed,none,Sanctuary_Ph2,Documentation,3,3
+141,2025-03-10,San Ph 2 OOH Creative,2,Update outdoor advertising layouts,Vaishali,Sainal,2025-03-10,2025-03-10,completed,none,Sanctuary_Ph2,OOH,1,0
+142,2025-03-10,PDO WhatsApp Creatives,5,Create new WA creatives with pricing,Vaishali,Sainal,2025-03-10,2025-03-13,completed,none,PDO,WhatsApp,2,3
+143,2025-03-11,San Ph 2 CP Certificates,4,Create certificates for top partners,Vaishali,Sainal,2025-03-11,2025-03-11,completed,none,Sanctuary_Ph2,Documentation,2,0
+144,2025-03-11,PDO Survey Creative,1,Create demographic survey form,Vaishali,Sainal,2025-03-11,2025-03-11,completed,none,PDO,Digital,1,0
+145,2025-03-12,San Ph 2 Ad Creative,2,Finalize print ad design,Vaishali,Sainal,2025-03-12,2025-03-12,completed,none,Sanctuary_Ph2,Print,1,0
+146,2025-03-12,PDO OOH Layout,7,Create multiple size adaptations,Vaishali,Sainal,2025-03-12,2025-03-12,completed,none,PDO,OOH,1,0
+147,2025-03-12,San Ph 2 SM Creative,2,Create social media posts,Vaishali,Sainal,2025-03-12,2025-03-12,completed,none,Sanctuary_Ph2,Social Media,1,0
+148,2025-03-13,San Ph 2 WA Creatives,4,Create launch messaging,Vaishali,Sainal,2025-03-13,2025-03-13,completed,none,Sanctuary_Ph2,WhatsApp,1,0
+149,2025-03-14,San Ph 2 Brochure E-Format,1,Convert to digital format,Vaishali,Sainal,2025-03-14,2025-03-14,sent,none,Sanctuary_Ph2,Digital,1,0
+150,2025-04-15,San Ph 2 Lift Creative,1,Create elevator advertisement,Nikhil,Meenakshi,2025-04-15,2025-04-17,completed,none,Sanctuary_Ph2,OOH,2,2
+151,2025-04-15,San Ph 2 LED Standees,6,Create digital standees for event,Vaishali,Meenakshi,2025-04-15,2025-04-15,completed,none,Sanctuary_Ph2,Event Materials,1,0
+152,2025-04-15,FP & KR WA Creatives,4,Create project WhatsApp messages,Vaishali,Meenakshi,2025-04-15,2025-04-17,completed,none,FP_KR,WhatsApp,2,2
+153,2025-04-16,San Ph 2 Ad Changes,2,Update front and back pages,Vaishali,Meenakshi,2025-04-16,2025-04-16,completed,none,Sanctuary_Ph2,Print,1,0
+154,2025-04-17,Lift Creative for San Ph 2,1,Create A3 poster for lift branding,Nikhil,Meenakshi,2025-04-17,2025-04-17,completed,none,Sanctuary_Ph2,Print,1,0
+155,2025-04-21,KR A4 Leaflet Creative,2,Design front and back pages,Vaishali,Meenakshi,2025-04-21,2025-04-22,completed,none,KR,Documentation,2,1
+156,2025-04-21,San Ph 2 Payment Details,1,Create payment information creative,Vaishali,Sainal,2025-04-21,2025-04-22,completed,none,Sanctuary_Ph2,Documentation,2,1
