@@ -854,7 +854,7 @@ def display_project_timeline(projects_df, tasks_df):
     start_date = selected_project_data['start_date']
     end_date = selected_project_data['end_date']
     
-    # Create project overview card
+    # Display project overview
     st.markdown(f"""
     <div class="card">
         <h3>{selected_project_data['project_name']} - {selected_project_data['project_phase']}</h3>
@@ -874,7 +874,63 @@ def display_project_timeline(projects_df, tasks_df):
     # Group by month
     monthly_tasks = project_tasks.groupby(['month_year', 'month_display'])
     
-    # Display timeline
+    # Add CSS to fix the white space issue
+    st.markdown("""
+    <style>
+    .timeline-container {
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .timeline-item {
+        display: flex;
+        margin-bottom: 0;
+        padding-bottom: 10px;
+        position: relative;
+        z-index: 1;
+    }
+    .timeline-marker {
+        min-width: 20px;
+        height: 20px;
+        background-color: #2563EB;
+        border-radius: 50%;
+        margin-right: 15px;
+        margin-top: 5px;
+        position: relative;
+        z-index: 2;
+    }
+    .timeline-content {
+        flex-grow: 1;
+        position: relative;
+        z-index: 2;
+    }
+    .timeline-date {
+        font-weight: 500;
+        color: #2563EB;
+    }
+    .timeline-line {
+        position: absolute;
+        left: 10px;
+        top: 15px;
+        bottom: 0;
+        width: 2px;
+        background-color: #CBD5E1;
+        z-index: 0;
+    }
+    .expander-wrapper {
+        margin-left: 35px;
+        margin-bottom: 15px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    # Create a container for the entire timeline
+    st.markdown('<div class="timeline-container">', unsafe_allow_html=True)
+    
+    # Create the main timeline line that spans the entire timeline
+    st.markdown('<div class="timeline-line"></div>', unsafe_allow_html=True)
+    
+    # Display each month in the timeline
     for (month_year, month_display), tasks in monthly_tasks:
         st.markdown(f"""
         <div class="timeline-item">
@@ -886,28 +942,31 @@ def display_project_timeline(projects_df, tasks_df):
                 </div>
             </div>
         </div>
-        <div class="timeline-line"></div>
         """, unsafe_allow_html=True)
+        
+        # Wrap the expander in a div with specific styling
+        st.markdown('<div class="expander-wrapper">', unsafe_allow_html=True)
         
         # Display tasks for this month
         with st.expander(f"View {len(tasks)} tasks from {month_display}"):
-            for i, task in enumerate(tasks.iterrows()):
-                _, task_data = task
-                cols = st.columns([3, 2, 1, 1])
-                with cols[0]:
-                    st.write(f"**{task_data['task_name']}**")
-                with cols[1]:
-                    st.write(f"Assigned to: {task_data['assigned_to']}")
-                with cols[2]:
-                    st.write(f"Status: {task_data['update_status'].title()}")
-                with cols[3]:
-                    if pd.notna(task_data['completion_days']):
-                        st.write(f"Days: {int(task_data['completion_days'])}")
-                
-                if i < len(tasks) - 1:
-                    st.markdown("---")
+            # Use a container instead of columns for more consistent styling
+            for i, (_, task_data) in enumerate(tasks.iterrows()):
+                st.markdown(f"""
+                <div style="display: flex; margin-bottom: 10px; padding-bottom: 10px; {'' if i == len(tasks) - 1 else 'border-bottom: 1px solid #e5e7eb;'}">
+                    <div style="flex: 3"><strong>{task_data['task_name']}</strong></div>
+                    <div style="flex: 2">Assigned to: {task_data['assigned_to']}</div>
+                    <div style="flex: 1">Status: {task_data['update_status'].title()}</div>
+                    <div style="flex: 1">{'Days: ' + str(int(task_data['completion_days'])) if pd.notna(task_data['completion_days']) else ''}</div>
+                </div>
+                """, unsafe_allow_html=True)
+        
+        # Close the expander wrapper
+        st.markdown('</div>', unsafe_allow_html=True)
     
-    # Close the last timeline line
+    # Close the timeline container
+    st.markdown('</div>', unsafe_allow_html=True)
+    
+    # Add the end of timeline marker
     st.markdown("""
     <div class="timeline-item">
         <div class="timeline-marker"></div>
@@ -917,6 +976,27 @@ def display_project_timeline(projects_df, tasks_df):
     </div>
     """, unsafe_allow_html=True)
     
+    # Add the content type distribution chart
+    st.subheader("Content Type Distribution by Project")
+    
+    # Group by project and content type
+    content_data = tasks_df.groupby(['project', 'content_type']).size().reset_index(name='count')
+    
+    # Create grouped bar chart
+    fig = px.bar(content_data, x='project', y='count', color='content_type',
+                title='Content Type Distribution by Project',
+                labels={'count': 'Number of Tasks', 'project': 'Project', 'content_type': 'Content Type'},
+                height=400)
+    
+    fig.update_layout(
+        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
+        xaxis_title="",
+        yaxis_title="Number of Tasks",
+        barmode='group'
+    )
+    
+    st.plotly_chart(fig, use_container_width=True)
+       
 # Team performance analytics with streamlit components
 def display_team_analytics(tasks_df, team_members_df):
     st.markdown('<div class="sub-header">Team Performance Analytics</div>', unsafe_allow_html=True)
