@@ -1661,12 +1661,12 @@ def main():
                 with dashboard_tabs[1]:
                     # Charts in separate container blocks with controlled layout
                     with st.container():
-                        col1, col2 = st.columns(2)
+                        row1, row2 = st.rows(1)
                         
-                        with col1:
+                        with row1:
                             plot_monthly_task_volume(filtered_tasks)
                         
-                        with col2:
+                        with row2:
                             plot_efficiency_trend(filtered_tasks)
                 
                 with dashboard_tabs[2]:
