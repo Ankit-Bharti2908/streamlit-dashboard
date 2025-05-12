@@ -1,0 +1,395 @@
+message_id,task_id,sender,recipient,date,message_content,message_type,attachment
+1,1,Yuvraj,Sainal,2024-07-28 15:33:00,"Can we quickly make a creative for Manu Bhaker's Olympic bronze medal win? First medal for India!",assignment,None
+2,1,Sainal,Yuvraj,2024-07-28 17:48:00,"Here's the draft creative. Highlighting the bronze medal achievement with ATS brand colors.",update,Olympic_Medal_Draft.jpg
+3,1,Yuvraj,Sainal,2024-07-28 18:00:00,"Yes, works! Good job on the quick turnaround.",approval,None
+4,1,Sainal,Yuvraj,2024-07-28 19:10:00,"Do you want me to send hi res on mail with description?",question,None
+5,1,Yuvraj,Sainal,2024-07-28 20:41:00,"Mail hi res",instruction,None
+6,1,Sainal,Yuvraj,2024-07-28 21:06:00,"Kar diya",confirmation,None
+7,2,Yuvraj,Creative Team,2024-07-28 15:36:00,"Star sports has done a wonderful campaign around Women's Asia Cup. Can we create something inspired by it?",assignment,None
+8,2,Yuvraj,Creative Team,2024-07-28 15:40:00,"Asia cup me India ka koi comparison nhi hai. Let's not prioritize this now.",deprioritization,None
+9,3,A.K Aquil Khan,Archita,2024-08-01 11:48:00,"Kindly update the above changes on khyber range price list. Payment timeline is now 45 days.",assignment,None
+10,3,Garvit,Archita,2024-08-01 11:52:00,"Needed today. Sales team is waiting for this.",urgency,None
+11,3,Archita,A.K Aquil Khan,2024-08-01 12:08:00,"We have noted the tasks. Will share updates soon!",acknowledgment,None
+12,3,Archita,A.K Aquil Khan,2024-08-01 12:52:00,"KR price list has been shared as requested.",update,KR_Price_List_v1.pdf
+13,3,A.K Aquil Khan,Archita,2024-08-01 13:24:00,"One small change needed - instead of 45 to 60 days... Only write 45 Days",feedback,None
+14,3,Archita,A.K Aquil Khan,2024-08-01 14:35:00,"Sharing again with the correction. Only 45 days mentioned now.",update,KR_Price_List_Final.pdf
+15,4,Garvit,Archita,2024-08-01 11:35:00,"Here's the link to the new renders for the Sanctuary print ad.",assignment,Renders_Link.url
+16,4,Garvit,Archita,2024-08-01 11:37:00,"Please share this with the suggested changes following brand messaging guidelines.",instruction,None
+17,4,Archita,Garvit,2024-08-01 11:44:00,"I am sharing without these new renders today. The renders aren't fully ready yet.",update,None
+18,4,Archita,Garvit,2024-08-02 09:30:00,"Print ad with brand messaging as requested. Will update with new renders when received.",update,Sanctuary_Print_Ad.pdf
+19,5,Vaishali,Archita,2024-08-02 12:01:00,"Need August social media content calendar and creative concepts for FP & KR.",assignment,None
+20,5,Archita,Vaishali,2024-08-02 13:10:00,"Here's the draft for review.",update,Aug_Deck_Draft.pdf
+21,5,Archita,Vaishali,2024-08-02 13:20:00,"Working on finishing the Aug Insta Deck with visual examples.",update,None
+22,5,Vaishali,Archita,2024-08-05 10:53:00,"When can we expect the August Deck for FP & KR? Team is asking for timeline.",question,None
+23,5,Archita,Vaishali,2024-08-05 11:39:00,"It's on our agenda today. It will hit your mailbox by tomorrow morning.",timeline,None
+24,6,Vaishali,Archita,2024-08-05 15:20:00,"Need opportunity document for KH with heading changes and branded layout.",assignment,None
+25,6,Archita,Vaishali,2024-08-05 15:22:00,"Options for cover page and inside pages sample design attached.",update,KH_Cover_Options.pdf
+26,6,Yuvraj,Archita,2024-08-05 17:30:00,"Rather than arch, make it like the frame we discussed in the meeting.",feedback,None
+27,6,Sainal,Vaishali,2024-08-05 18:34:00,"Sharing heading options for your review.",update,KH_Heading_Options.pdf
+28,6,Archita,Vaishali,2024-08-09 17:01:00,"Final Opp doc attached with all requested changes.",update,KH_Opp_Doc_Final.pdf
+29,7,Vaishali,Archita,2024-08-05 16:15:00,"We need to close the Brochure Specifications for KH by Today. Need layout and design options.",assignment,None
+30,7,Archita,Vaishali,2024-08-05 17:30:00,"Sharing design options for your review.",update,KH_Brochure_Options.pdf
+31,7,Yuvraj,Archita,2024-08-05 19:13:00,"Need additional options with different typography approaches.",feedback,None
+32,7,Vaishali,Archita,2024-08-08 10:43:00,"Here are the Opp Doc Changes we discussed. Please incorporate in brochure specs as well.",feedback,Opp_Doc_Changes.pdf
+33,8,Vaishali,Archita,2024-08-05 16:13:00,"Map (sharing over mail for beautification) of 1000 trees. Need landmark highlights added.",assignment,Map_Original.jpg
+34,8,Archita,Vaishali,2024-08-08 15:28:00,"I've arranged a Zoom meeting to discuss the Sanctuary Map Beautification details.",update,None
+35,9,Vaishali,Sainal,2024-08-05 10:53:00,"Need Revealer Creatives for the multi-stage reveal campaign.",assignment,None
+36,9,Vaishali,Sainal,2024-08-13 16:28:00,"Teasers- WhatsApp By EOD. Need both versions.",urgency,None
+37,9,Sainal,Vaishali,2024-08-13 20:18:00,"WhatsApp teasers attached as requested, both with and without IVR.",update,WhatsApp_Teasers.zip
+38,10,Garvit,Sainal,2024-08-05 12:02:00,"Independence Day GIF/Short Video Thought - something combining patriotism with our brand values.",assignment,None
+39,10,Sainal,Garvit,2024-08-05 12:07:00,"Can you clarify more on the video requirements? Duration and focus?",question,None
+40,10,Garvit,Sainal,2024-08-06 07:31:00,"Static posts for ID, no video or GIF required. Marketing team changed direction.",update,None
+41,10,Sainal,Garvit,2024-08-06 07:58:00,"Here are 5 headline options for the static Independence Day post.",update,ID_Headline_Options.pdf
+42,11,Garvit,Sainal,2024-08-05 11:53:00,"Sharing the Hariyali Teej event text. Need to incorporate cultural elements.",assignment,Teej_Text.docx
+43,11,Garvit,Sainal,2024-08-05 11:55:00,"Make 2 creatives of Hariyali Teej with different approaches.",instruction,None
+44,11,Sainal,Garvit,2024-08-06 06:09:00,"Creative options attached. Option 1 has traditional elements, Option 2 more modern take.",update,Teej_Creatives.pdf
+45,11,Garvit,Sainal,2024-08-06 07:31:00,"These look good but don't use the word 'negativity' in the headline. Too negative for a celebration.",feedback,None
+46,12,Vaishali,Archita,2024-08-09 15:07:00,"Sharing Link to Images selected for Kabana High. Please use these for the brochure.",assignment,KH_Images_Link.url
+47,12,Vaishali,Archita,2024-08-12 12:40:00,"KH Images final selection approved by management.",update,KH_Images_Final.zip
+48,13,Vaishali,Archita,2024-08-12 10:37:00,"Brochure Specifications are a priority. Need comprehensive brochure with selected images and content.",assignment,None
+49,13,Vaishali,Archita,2024-08-14 16:59:00,"Any update on the Brochure? Sales team is asking for timeline.",question,None
+50,13,Archita,Vaishali,2024-08-16 17:04:00,"Brochure progress update - completed layout and image placement, working on content sections.",update,None
+51,13,Vaishali,Archita,2024-08-16 17:30:00,"Got an update on brochure sample. We'll need multiple content revisions based on legal feedback.",feedback,None
+52,14,Yuvraj,Sainal,2024-08-12 13:25:00,"Need 7 teaser creatives for OOH campaign. Focus on building curiosity.",assignment,None
+53,14,Sainal,Yuvraj,2024-08-12 13:25:00,"Providing teaser jpegs for your review.",update,Teaser_Jpegs.zip
+54,14,Vaishali,Sainal,2024-08-13 13:14:00,"We would need the Teasers in both forms by today itself. OOH and digital versions.",urgency,None
+55,14,Vaishali,Sainal,2024-08-13 17:40:00,"Teasers approved. Good work on maintaining consistency across formats.",approval,None
+56,15,Vaishali,Sainal,2024-08-13 13:14:00,"Need WhatsApp versions of teasers with and without IVR for different distribution channels.",assignment,None
+57,15,Sainal,Vaishali,2024-08-13 21:51:00,"WhatsApp versions attached as requested.",update,WhatsApp_Teasers.zip
+58,15,Yuvraj,Sainal,2024-08-13 22:03:00,"Yeah fine",approval,None
+59,16,Vaishali,Archita,2024-08-13 10:45:00,"Also, for Teasers OOH Adaptation, Consider 2:1 Size for hoarding format.",assignment,None
+60,16,Archita,Vaishali,2024-08-13 18:06:00,"Packaged file for teaser OOH in 2:1 ratio attached.",update,Teaser_OOH_Package.zip
+61,17,Vaishali,Sainal,2024-08-13 10:45:00,"WA Creatives - FP & KR listed as priority. Need these with descriptors and features.",assignment,None
+62,17,Garvit,Sainal,2024-08-14 12:27:00,"Share the revised deck of revealers with the new content we discussed.",instruction,None
+63,18,Yuvraj,Sainal,2024-08-13 13:15:00,"Get ready for this - Manu Bhaker will be chief guest for Happy Streets event. Need announcement creative.",assignment,None
+64,18,Sainal,Yuvraj,2024-08-13 20:42:00,"First option attached - formal announcement style.",update,Chief_Guest_Option1.jpg
+65,18,Sainal,Yuvraj,2024-08-13 20:59:00,"Second route - more dynamic with sports elements.",update,Chief_Guest_Option2.jpg
+66,18,Yuvraj,Sainal,2024-08-13 21:00:00,"Let's go with option 2 but improve the contrast for better readability.",feedback,None
+67,19,Garvit,Archita,2024-08-14 11:28:00,"Any update on the WATER ATM creatives? Need adaptations for multiple locations.",question,None
+68,19,Archita,Garvit,2024-08-14 11:34:00,"Multiple options attached for water ATM signage.",update,Water_ATM_Options.pdf
+69,19,Garvit,Archita,2024-08-14 11:36:00,"Ok, and make 1 more like this but with different color scheme for location differentiation.",feedback,None
+70,19,Sainal,Garvit,2024-08-14 12:05:00,"Additional options with color variations as requested.",update,Water_ATM_Colors.pdf
+71,19,Garvit,Sainal,2024-08-14 12:09:00,"Ok, these work. Proceed with production.",approval,None
+72,20,Archita,Garvit,2024-08-16 17:06:00,"Need open file of this for brochure updates.",request,None
+73,20,Garvit,Archita,2024-08-24 15:04:00,"Sharing link to new renders for incorporation into the brochure.",update,New_Renders_Link.url
+74,20,Archita,Garvit,2024-09-24 14:19:00,"Updated brochure PDF with all new images and content sections.",update,Sanctuary_Brochure_Updated.pdf
+75,21,Yuvraj,Sainal,2024-08-19 14:35:00,"Getting feedback that text legibility is an issue in the teaser hoardings. Need to fix.",feedback,None
+76,21,Sainal,Yuvraj,2024-08-19 15:20:00,"Sharing comparison image showing before and after legibility improvements.",update,Text_Comparison.jpg
+77,21,Sainal,Yuvraj,2024-08-19 15:21:00,"Revised teaser with enhanced text contrast.",update,Teaser_Revised.jpg
+78,21,Yuvraj,Sainal,2024-08-19 15:57:00,"This looks ok. Proceed with this version.",approval,None
+79,22,Archita,Garvit,2024-08-19 17:06:00,"Revealer jpegs for OOH campaign attached.",update,Revealer_JPEGs.zip
+80,22,Yuvraj,Archita,2024-08-19 17:10:00,"Top image is flying in the air. Needs to be anchored to the ground for more realistic look.",feedback,None
+81,22,Sainal,Yuvraj,2024-08-19 17:36:00,"Revised images with repositioned top element.",update,Revised_Revealers.zip
+82,22,Yuvraj,Sainal,2024-08-19 17:39:00,"Approved. Share artwork with production team.",approval,None
+83,22,Malvika,Yuvraj,2024-08-20 16:11:00,"Packaged file link for production team attached.",update,Revealer_Package_Link.url
+84,23,Yuvraj,Sainal,2024-08-20 18:47:00,"Need these in video formats for digital standees. Both with and without IVR versions.",assignment,None
+85,23,Sainal,Yuvraj,2024-09-09 18:48:00,"Completed standee videos attached. Six variations as discussed.",update,Standee_Videos.zip
+86,23,Sainal,Yuvraj,2024-09-20 15:23:00,"Revised videos with timing adjustments as requested.",update,Standee_Videos_Rev.zip
+87,24,Vaishali,Archita,2024-08-21 13:47:00,"Reference image for payment sheet design. Need all QR codes and payment options included.",assignment,Payment_Reference.jpg
+88,24,Vaishali,Archita,2024-08-21 13:47:00,"We need the payment details sheet with all options by tomorrow morning.",urgency,None
+89,24,Archita,Vaishali,2024-08-21 18:07:00,"Draft payment sheet attached. Review the layout and QR code placement.",update,Payment_Sheet_Draft.pdf
+90,24,Sainal,Vaishali,2024-08-21 21:00:00,"Final PDF with all payment options and QR codes as requested.",update,Payment_Sheet_Final.pdf
+91,25,Garvit,Sainal,2024-08-22 20:08:00,"Happy Street ILU.pdf attached. Need this adapted with our event information.",assignment,Happy_Street_ILU.pdf
+92,25,Sainal,Garvit,2024-08-22 20:15:00,"Can you give an open file of this please? PDF is not editable.",request,None
+93,25,Garvit,Sainal,2024-08-22 20:37:00,"Don't have open file. Here's an image with corrections needed marked up.",feedback,ILU_Markup.jpg
+94,25,Sainal,Garvit,2024-08-22 20:42:00,"Draft with corrections implemented as per markup.",update,ILU_Corrected.pdf
+95,26,Vaishali,Archita,2024-08-23 10:25:00,"Watch Out Creative for Ad listed as priority for tomorrow's print deadline.",assignment,None
+96,26,Archita,Vaishali,2024-08-23 17:22:00,"Watch Out creative attached. Simple teaser with date indication.",update,Watch_Out_Creative.pdf
+97,27,Archita,Garvit,2024-08-24 19:07:00,"This is a way to fix the double page spread layout for print ad. Solves the bleed issue.",suggestion,Layout_Fix.jpg
+98,27,Yuvraj,Archita,2024-08-24 19:13:00,"Font size needs to be larger for better readability, especially in the disclaimer section.",feedback,None
+99,27,Sainal,Yuvraj,2024-08-24 21:33:00,"Sharing final front/back page with font size adjustments.",update,Print_Ad_Final.zip
+100,27,Archita,Team,2024-08-25 06:37:00,"Where is everyone? We have the event today and need final confirmation on print files.",urgency,None
+101,28,Garvit,Sainal,2024-08-26 15:37:00,"Need link of deepanshu for Happy Streets PO videos.",request,None
+102,28,Garvit,Sainal,2024-08-26 15:38:00,"Listed required footage steps for video editing. Need to highlight community engagement.",instruction,Video_Steps.txt
+103,28,Yuvraj,Sainal,2024-08-26 17:35:00,"Reviewed video. Need to cut 30 seconds, add more family shots, and improve transitions.",feedback,None
+104,28,Sainal,Yuvraj,2024-08-26 19:46:00,"We have a winner! Final video with all requested changes at link.",update,Final_Video_Link.url
+105,29,Vaishali,Archita,2024-08-26 12:30:00,"We need the Dump of Happy Street video footage for the preview home video editing.",assignment,None
+106,29,Archita,Vaishali,2024-08-26 13:38:00,"Preview home video draft attached. Property walkthrough with feature highlights.",update,Preview_Video_Draft.mp4
+107,29,Vaishali,Archita,2024-08-27 13:29:00,"Detailed feedback on video improvements needed: timing adjustments, more focus on key features.",feedback,None
+108,30,Yuvraj,Archita,2024-08-28 13:35:00,"Need a RERA announcement creative please. Something eye-catching to celebrate approval.",assignment,None
+109,30,Archita,Yuvraj,2024-08-28 16:37:00,"RERA announcement video attached.",update,RERA_Video.mp4
+110,30,Yuvraj,Archita,2024-08-28 16:49:00,"Can we add a slide down animation for the RERA approval number? More dynamic.",feedback,None
+111,30,Archita,Yuvraj,2024-08-28 16:58:00,"Managed to slide it down as requested. See revised version.",update,RERA_Video_Rev.mp4
+112,30,Yuvraj,Archita,2024-08-28 17:07:00,"Cool",approval,None
+113,31,Vaishali,Archita,2024-08-28 14:57:00,"Minor changes in this payment link creative. Need to make it hyperlinked PDF.",feedback,Payment_Link.pdf
+114,31,Archita,Vaishali,2024-08-28 17:08:00,"Draft with QR code and hyperlinked elements as requested.",update,Payment_Link_Draft.pdf
+115,31,Sainal,Vaishali,2024-08-28 21:00:00,"Final payment link PDF with all clickable elements as specified.",update,Payment_Link_Final.pdf
+116,32,Archita,Vaishali,2024-08-29 17:04:00,"Application form draft attached. Includes all standard fields and legal sections.",update,Application_Form_v1.pdf
+117,32,Vaishali,Archita,2024-10-05 11:42:00,"Detailed disclaimer text from legal team attached. Must be included verbatim.",feedback,Disclaimer_Text.docx
+118,32,Sainal,Vaishali,2024-10-05 18:26:00,"Final PDF with all legal disclaimers and revisions incorporated.",update,Application_Form_Final.pdf
+119,33,Archita,Vaishali,2024-08-29 15:56:00,"Map options attached for your review. Different styling approaches.",update,Map_Options.pdf
+120,33,Archita,Vaishali,2024-08-29 15:57:00,"The pin will be moved slightly to the left as discussed to better show property location.",update,None
+121,34,Sainal,Garvit,2024-08-30 16:05:00,"Launch OOH creative attached for review.",update,Launch_OOH.pdf
+122,34,Garvit,Sainal,2024-08-30 16:05:00,"Font size needs to be larger for the key selling points. Not readable from distance.",feedback,None
+123,34,Sainal,Garvit,2024-08-30 18:30:00,"Another rendition with enlarged typography as requested.",update,Launch_OOH_Rev.pdf
+124,35,Garvit,Archita,2024-09-02 10:12:00,"Need photo op booth and frame dimensions for allotment backdrop design.",request,None
+125,35,Archita,Garvit,2024-10-03 10:33:00,"Backdrop files attached per requested dimensions for welcome, registration and photo op areas.",update,Backdrop_Files.zip
+126,36,Vaishali,Archita,2024-09-02 15:05:00,"Need location creative with clickable Google Map link for digital distribution.",assignment,None
+127,36,Archita,Vaishali,2024-09-02 17:22:00,"Location creative draft attached. Map integrated with landmark indicators.",update,Location_Draft.pdf
+128,36,Sainal,Vaishali,2024-09-02 17:44:00,"Hyperlinked PDF with clickable directions as requested.",update,Location_Hyperlinked.pdf
+129,37,Garvit,Sainal,2024-09-03 11:11:00,"Share the watch out creative for tomorrow's print ad. HT City specifications.",request,None
+130,37,Sainal,Garvit,2024-09-03 17:41:00,"Watch out creative attached with proper HT City dimensions.",update,Watch_Out_HT.pdf
+131,38,Vaishali,Archita,2024-09-03 16:31:00,"Excel file for price list attached. Please create designed version with type details.",assignment,KH_Prices.xlsx
+132,38,Archita,Vaishali,2024-09-03 17:12:00,"Price list draft attached with formatting as requested.",update,KH_PriceList_Draft.pdf
+133,38,Garvit,Archita,2024-09-03 17:27:00,"Looks good. Just adjust the column width for payment timeline for better readability.",feedback,None
+134,39,Archita,Team,2024-09-04 10:32:00,"Need feedback on CP Meet Invite draft.",request,CP_Invite_Draft.pdf
+135,39,Yuvraj,Archita,2024-09-04 10:45:00,"Headline options: 1) Meeting of Minds 2) Building Success Together 3) Partnership Summit",feedback,None
+136,39,Archita,Vaishali,2024-09-04 15:32:00,"CP Meet Invite with hyperlink and selected headline attached.",update,CP_Invite_Final.pdf
+137,39,Yuvraj,Archita,2024-09-04 15:38:00,"Yeah ok",approval,None
+138,40,Vaishali,Archita,2024-09-10 12:20:00,"Suggest we create static creatives highlighting USPs for social media platforms.",suggestion,None
+139,40,Yuvraj,Archita,2024-09-10 12:33:00,"Copy options for headlines: 1) Luxury Redefined 2) Where Nature Meets Elegance 3) Urban Sanctuary",feedback,None
+140,40,Archita,Vaishali,2024-09-12 18:11:00,"Final creatives for all social platforms attached. Six designs with different USP focus.",update,SM_Creatives.zip
+141,41,Garvit,Archita,2024-09-12 15:05:00,"Please share a light version of the opp doc with updated disclaimers.",request,None
+142,41,Archita,Garvit,2024-09-12 17:44:00,"Revised form with updated legal language attached.",update,Updated_Form.pdf
+143,42,Yuvraj,Sainal,2024-09-16 11:19:00,"Need videos with 'EOI window closes in X days' for countdown series. 9 videos total.",assignment,None
+144,42,Sainal,Yuvraj,2024-09-16 18:04:00,"Frames for approval attached. Will animate once content is confirmed.",update,Countdown_Frames.pdf
+145,42,Yuvraj,Sainal,2024-09-16 18:47:00,"Approved with minor text corrections. Make day number more prominent.",feedback,None
+146,43,Vaishali,Sainal,2024-09-16 13:14:00,"Award details for Bonheur Avenue video attached. Need celebration theme.",assignment,Award_Details.docx
+147,43,Archita,Vaishali,2024-09-16 21:06:00,"Award video draft attached for your review.",update,Award_Video_Draft.mp4
+148,43,Yuvraj,Archita,2024-09-16 21:40:00,"Detailed feedback on award video: need more emphasis on achievement, better logo placement, slower text reveal.",feedback,None
+149,43,Sainal,Yuvraj,2024-09-19 12:39:00,"Revised award video with all requested changes implemented.",update,Award_Video_Final.mp4
+150,44,Sainal,Garvit,2024-09-19 19:03:00,"Initial print ad drafts for FP with festive theme.",update,FP_Print_Drafts.pdf
+151,44,Yuvraj,Sainal,2024-09-19 19:03:00,"Nhi, Festive look feel chhodo. We need to focus on investment value instead.",feedback,None
+152,44,Garvit,Archita,2024-10-03 13:46:00,"Detailed instructions for final ad with investment angle approach.",feedback,Ad_Instructions.docx
+153,44,Archita,Garvit,2024-10-04 14:13:00,"Final versions with investment focus as directed.",update,FP_Print_Final.zip
+154,45,Vaishali,Archita,2024-09-19 11:29:00,"Laptop Banner - Just like we made for Sanctuary. Need for website and digital displays.",assignment,None
+155,45,Archita,Vaishali,2024-09-19 18:22:00,"Banner options attached for review.",update,Banner_Options.pdf
+156,45,Garvit,Archita,2024-09-19 18:27:00,"Logo placement needs adjustment. Move to top right for better visibility.",feedback,None
+157,46,Vaishali,Archita,2024-09-23 10:53:00,"San 105 - Individual Videos listed as priority. Need separate videos for each unique selling point.",assignment,None
+158,46,Yuvraj,Archita,2024-09-23 14:03:00,"Give individual ones first, we'll combine later if needed.",instruction,None
+159,46,Archita,Vaishali,2024-09-25 13:08:00,"All individual USP videos attached. Five distinct features highlighted.",update,USP_Videos.zip
+160,47,Archita,Vaishali,2024-09-26 18:11:00,"Client and CP festive options attached for review.",update,Festive_Options.pdf
+161,47,Garvit,Archita,2024-09-26 18:47:00,"Feedback on changes needed: brighter colors for festive feel, larger CTA button.",feedback,None
+162,47,Sainal,Garvit,2024-09-26 23:16:00,"Revised creatives with brighter palette and enhanced CTA as requested.",update,Festive_Rev.pdf
+163,48,Vaishali,Archita,2024-09-27 13:05:00,"Changes document for KH brochure attached. Need images and disclaimers updated.",assignment,Changes_Doc.pdf
+164,48,Archita,Vaishali,2024-09-27 16:33:00,"Service suites leaflet attached with updated content.",update,Service_Suites.pdf
+165,48,Vaishali,Archita,2024-09-30 16:43:00,"More changes attached. Legal team has additional requirements.",feedback,More_Changes.docx
+166,49,Sainal,Vaishali,2024-09-30 17:38:00,"Draft price list attached with all unit options and payment plans.",update,Price_List_Draft.pdf
+167,49,Vaishali,Sainal,2024-09-30 17:39:00,"Formatting changes needed: align columns better, highlight premium options.",feedback,None
+168,49,Archita,Vaishali,2024-10-04 16:08:00,"Final PDF with all formatting improvements implemented.",update,Price_List_Final.pdf
+169,50,Archita,Vaishali,2024-09-30 18:49:00,"Please check post resizing of leaflets. A5 format as requested.",update,Leaflets_A5.pdf
+170,50,Archita,Vaishali,2024-10-05 22:28:00,"Revised leaflets with North arrow corrections as discussed.",update,Leaflets_Rev.pdf
+171,50,Archita,Vaishali,2024-10-06 17:23:00,"Print files attached with proper bleed and crop marks.",update,Leaflets_Print.zip
+172,51,Garvit,Archita,2024-10-03 18:10:00,"Please share the front page of HT city (6 days left again) for tomorrow's publication.",request,None
+173,51,Garvit,Archita,2024-10-04 07:28:00,"Make 6 to 7, 4 to 5 and 2 to 3 days in countdown. Numbers changed in schedule.",feedback,None
+174,51,Archita,Garvit,2024-10-04 12:09:00,"Revised 7 Days Front Page attached with corrected numbering.",update,7Days_FrontPage.pdf
+175,52,Yuvraj,Sainal,2024-10-04 16:26:00,"Customer emailer of Sanctuary with updates needed urgently.",assignment,None
+176,52,Sainal,Yuvraj,2024-10-04 18:12:00,"Draft emailer attached with project updates and clickable elements.",update,Emailer_Draft.html
+177,52,Yuvraj,Sainal,2024-10-04 18:30:00,"Font size needs to be larger for mobile viewing. Otherwise good.",feedback,None
+178,53,Yuvraj,Archita,2024-10-07 15:22:00,"Need Grand Allotment invite with venue and date details. Make it premium feeling.",assignment,None
+179,53,Archita,Yuvraj,2024-10-07 15:30:00,"Can you share a sample reference for the style you're looking for?",question,None
+180,53,Yuvraj,Archita,2024-10-07 15:35:00,"Similar to what we did for BA launch - formal invitation style with gold accents.",reference,None
+181,53,Archita,Yuvraj,2024-10-07 17:20:00,"Invitation created with formal style and premium finishes as requested.",update,Invitation.pdf
+182,54,Yuvraj,Archita,2024-10-07 14:15:00,"Create list for allotment day participants with KYC document requirements.",assignment,None
+183,54,Archita,Yuvraj,2024-10-07 16:30:00,"First draft of KYC checklist attached.",update,KYC_Draft.pdf
+184,54,Yuvraj,Archita,2024-10-07 16:45:00,"Add PAN card and add icons for each document type for easier identification.",feedback,None
+185,54,Archita,Yuvraj,2024-10-07 17:50:00,"Second draft with PAN card added and icons for visual clarity.",update,KYC_Rev.pdf
+186,54,Yuvraj,Archita,2024-10-07 18:05:00,"One more revision: Add note about originals and certified copies being acceptable.",feedback,None
+187,55,Vaishali,Archita,2024-10-07 10:30:00,"Create offer leaflet for 3.5 BHK clients to upgrade to 4.5 BHK. Highlight benefits.",assignment,None
+188,55,Archita,Vaishali,2024-10-07 14:45:00,"Draft leaflet with upgrade benefits and process explained.",update,Upgrade_Draft.pdf
+189,55,Vaishali,Archita,2024-10-07 15:10:00,"Typography and color adjustments needed to match premium positioning.",feedback,None
+190,56,Vaishali,Sainal,2024-10-08 09:15:00,"Need WhatsApp creatives for FP - both client and CP versions with different messaging.",assignment,None
+191,56,Sainal,Vaishali,2024-10-08 12:30:00,"Working on these - do you have confirmation on the CP incentive structure?",question,None
+192,56,Vaishali,Sainal,2024-10-08 13:45:00,"Not yet, we'll need to leave that section flexible for now until sales confirms.",update,None
+193,57,Yuvraj,Sainal,2024-10-08 10:25:00,"Create concepts for sold out announcement campaign. This is a big win we need to celebrate.",assignment,None
+194,57,Sainal,Yuvraj,2024-10-08 11:30:00,"Working on concepts. Any specific angle you want to emphasize - speed of sellout, brand success?",question,None
+195,57,Yuvraj,Sainal,2024-10-08 11:45:00,"Focus on brand trust - 'Sold out before completion' as the key message.",instruction,None
+196,58,Garvit,Sainal,2024-10-08 14:20:00,"Develop creative ideas for new Yamuna Expressway Project launch strategy. YEP brief attached.",assignment,YEP_Brief.pdf
+197,58,Sainal,Garvit,2024-10-08 15:30:00,"Project is marked as high priority but we don't have complete information yet. How should I prioritize?",question,None
+198,58,Garvit,Sainal,2024-10-08 15:45:00,"Keep this as background task for now. Focus on initial concepts and we'll develop further when RERA comes through.",instruction,None
+199,59,Vaishali,Sainal,2024-11-28 16:00:00,"Any updates on San WA Creatives & Floral? Need for tomorrow's campaign.",question,None
+200,59,Sainal,Vaishali,2024-11-28 16:27:00,"Awaiting input from your side for headlines.",update,None
+201,59,Sainal,Vaishali,2024-11-28 16:28:00,"The cogs will turn accordingly once we have the messaging direction.",clarification,None
+202,59,Vaishali,Sainal,2024-11-28 17:19:00,"I'll circulate the approved headlines tomorrow morning. Prepare templates in the meantime.",instruction,None
+203,60,Yuvraj,Sainal,2024-11-28 18:22:00,"Please make text bold in box and share an iteration. Needs to be more readable on mobile.",feedback,None
+204,61,Garvit,Sainal,2024-11-28 18:42:00,"We're finished with creatives for both projects.",update,None
+205,61,Garvit,Sainal,2024-11-28 18:42:00,"Please share by EOD or morning so team can distribute.",instruction,None
+206,61,Garvit,Sainal,2024-11-28 18:42:00,"Let's make a practice of closing these by Monday and Thursday every week.",process,None
+207,61,Sainal,Garvit,2024-11-28 18:44:00,"Okay, will send all files by tonight.",confirmation,None
+208,62,Garvit,Sainal,2024-11-29 07:52:00,"Remove 'express your interest' and IVR from WhatsApp creative.",feedback,None
+209,62,Garvit,Sainal,2024-11-29 07:54:00,"Change 'extra delight' to 'Book your 3 BHK with study line' - more direct call to action.",feedback,None
+210,62,Sainal,Garvit,2024-11-29 07:56:00,"Okay, will make these revisions immediately.",confirmation,None
+211,63,Vaishali,Sainal,2024-11-29 09:58:00,"San 105 Project USPs Video included in job list. Need comprehensive showcase of all features.",assignment,None
+212,63,Archita,Vaishali,2024-12-04 10:08:00,"Will share video ideation document today for your feedback.",update,None
+213,63,Vaishali,Archita,2024-12-04 12:21:00,"Received the ideation document. Good starting point for the video.",feedback,None
+214,63,Archita,Vaishali,2024-12-04 17:25:00,"Video concepts attached as PDF with storyboard and script options.",update,Video_Concepts.pdf
+215,64,Sainal,Team,2024-11-29 10:50:00,"Back Page 32.8x52.4 cm ad Delhi Times.pdf attached.",update,Back_Page_DT.pdf
+216,64,Sainal,Team,2024-11-29 10:50:00,"Front Page 32.8x47 cm ad Delhi Times.pdf attached.",update,Front_Page_DT.pdf
+217,64,Yuvraj,Sainal,2024-11-29 10:51:00,"Need Watch Out creative as well for the sequence.",request,None
+218,64,Sainal,Yuvraj,2024-11-29 10:51:00,"It's aligned and will share ASAP.",confirmation,None
+219,65,Vaishali,Sainal,2024-11-29 09:58:00,"Print Ad Files needed by EOD. Need Watch Out creative.",assignment,None
+220,66,Vaishali,Sainal,2024-12-03 13:42:00,"Need creative for demographic form with Rs.1000 reward for completing the survey.",assignment,None
+221,66,Sainal,Vaishali,2024-12-03 13:46:00,"Is this a WhatsApp creative or different format?",question,None
+222,66,Sainal,Vaishali,2024-12-04 14:59:00,"Draft creative attached for the survey with reward incentive highlighted.",update,Survey_Draft.jpg
+223,66,Yuvraj,Sainal,2024-12-04 15:23:00,"Make the reward more prominent - it's the main incentive for filling the form.",feedback,None
+224,66,Vaishali,Sainal,2024-12-04 15:39:00,"Also add 'Limited Time Offer' to create urgency.",feedback,None
+225,66,Sainal,Vaishali,2024-12-04 17:41:00,"Final version with prominent reward display and urgency message.",update,Survey_Final.jpg
+226,67,Vaishali,Sainal,2024-12-11 16:02:00,"Need PDF of art forms ideas for sharing with Uttam for coffee table book.",request,None
+227,67,Archita,Vaishali,2024-12-11 16:04:00,"Will compile all the information into a comprehensive document.",confirmation,None
+228,67,Archita,Vaishali,2024-12-12 11:57:00,"SKC_Life Unframed-Coffee Table Book_V3.pdf attached with all art form concepts.",update,Coffee_Table_Book.pdf
+229,68,Vaishali,Archita,2024-12-02 10:42:00,"San 105 - SM Creatives (2) listed in job list. Need Instagram-optimized posts.",assignment,None
+230,68,Archita,Vaishali,2024-12-02 16:27:00,"Four Instagram creative options attached for review.",update,Insta_Options.pdf
+231,68,Archita,Vaishali,2024-12-02 16:29:00,"Second set of options with different style approach.",update,Insta_Options2.pdf
+232,68,Garvit,Archita,2024-12-02 16:35:00,"Text needs to be more legible against background in options 1 and 3.",feedback,None
+233,68,Garvit,Archita,2024-12-02 16:36:00,"Use the render from option 4 but with layout from option 2 for best result.",feedback,None
+234,68,Archita,Garvit,2024-12-02 17:51:00,"Revised version combining render from option 4 with layout from option 2.",update,Insta_Revised1.jpg
+235,68,Archita,Garvit,2024-12-02 18:31:00,"Second revised option with enhanced text contrast per your feedback.",update,Insta_Revised2.jpg
+236,68,Garvit,Archita,2024-12-02 19:32:00,"Option 1 is approved. Just add our website URL in small font at bottom.",feedback,None
+237,68,Garvit,Archita,2024-12-02 20:52:00,"Actually, both options work well. Let's use both for different posting days.",approval,None
+238,69,Vaishali,Sainal,2024-12-02 10:42:00,"San 105 Client & CP Creatives listed as priority. Need both versions by EOD.",assignment,None
+239,69,Sainal,Vaishali,2024-12-02 21:14:00,"Client version attached with focus on lifestyle benefits.",update,Client_Creative.jpg
+240,69,Sainal,Vaishali,2024-12-02 21:15:00,"CP version with incentive structure and availability details.",update,CP_Creative.jpg
+241,69,Sainal,Vaishali,2024-12-02 21:16:00,"FP client and CP versions attached as well. All four creatives now complete.",update,FP_Creatives.zip
+242,70,Sainal,Vaishali,2024-12-09 12:31:00,"What date/time should I put for CP meet invite?",question,None
+243,70,Vaishali,Sainal,2024-12-09 12:32:00,"Only approved version needed changes. Use existing date/time.",clarification,None
+244,70,Sainal,Vaishali,2024-12-09 12:33:00,"Working on changing 'onwards' too as discussed.",update,None
+245,70,Vaishali,Sainal,2024-12-09 12:34:00,"Need three time slots actually: 12-1, 2-3, 4-5.",instruction,None
+246,70,Sainal,Vaishali,2024-12-09 12:55:00,"Draft with three time slots attached.",update,CP_Meet_Draft.jpg
+247,70,Vaishali,Sainal,2024-12-09 13:05:00,"Content for invite: 'Join us for an exclusive Channel Partner Meet to discuss exciting new opportunities and incentives.'",content,None
+248,70,Sainal,Vaishali,2024-12-09 14:50:00,"Revised invite with provided content and all time slots.",update,CP_Meet_Rev.jpg
+249,70,Sainal,Vaishali,2024-12-09 16:33:00,"Final versions with RSVP contact details added.",update,CP_Meet_Final.zip
+250,80,Vaishali,Sainal,2024-12-11 12:05:00,"Need three wall art concepts for Sanctuary common areas. Should reflect sophisticated aesthetic with natural elements.",assignment,None
+251,80,Sainal,Vaishali,2024-12-15 14:30:00,"Three concepts attached: 1) Abstract Foliage, 2) Geometric Nature, 3) Sanctuary Silhouettes.",update,WallArt_Concepts.pdf
+252,80,Vaishali,Sainal,2024-12-15 16:15:00,"Management likes Option 2 (Geometric Nature) but wants color palette to better match lobby furniture.",feedback,Lobby_Photos.jpg
+253,80,Sainal,Vaishali,2024-12-20 11:30:00,"Revised Option 2 with updated color palette to complement lobby design.",update,WallArt_Option2_Revised.pdf
+254,93,Vaishali,Sainal,2024-12-28 09:45:00,"Need backdrop and standee designs for Sanctuary 105 exhibition next month. Consistent with current brand campaign.",assignment,None
+255,93,Sainal,Vaishali,2025-01-15 11:20:00,"Initial designs attached. Three backdrop options and matching standee designs.",update,San105_Exhibition_v1.pdf
+256,93,Vaishali,Sainal,2025-01-15 14:10:00,"These look good. Let's go with Option 2 but make the contact information more prominent.",feedback,None
+257,93,Sainal,Vaishali,2025-01-27 15:45:00,"Final designs with enhanced contact information and QR code addition for digital brochure.",update,San105_Exhibition_Final.pdf
+258,96,Vaishali,Sainal,2025-01-06 10:15:00,"Develop strategic campaign for Sanctuary Phase 2 launch. Need comprehensive approach covering all channels.",assignment,None
+259,96,Sainal,Vaishali,2025-01-20 17:30:00,"Initial campaign framework attached focusing on exclusivity and premium positioning.",update,SanPh2_Campaign_v1.pdf
+260,96,Vaishali,Sainal,2025-01-20 18:45:00,"Good direction but needs more emphasis on new amenities that weren't in Phase 1. Also need stronger call to action.",feedback,None
+261,96,Sainal,Vaishali,2025-01-27 10:20:00,"Revised campaign with amenities highlight section and enhanced CTA strategy.",update,SanPh2_Campaign_v2.pdf
+262,96,Vaishali,Sainal,2025-01-27 14:35:00,"Much improved. Sales team suggests adding specific investment appreciation data from Phase 1 as proof point.",feedback,None
+263,96,Sainal,Vaishali,2025-02-05 16:10:00,"Third revision with added investment data and testimonials from Phase 1 owners.",update,SanPh2_Campaign_v3.pdf
+264,96,Vaishali,Sainal,2025-02-05 17:20:00,"Marketing director wants one more option that's more emotion-driven rather than fact-based.",feedback,None
+265,96,Sainal,Vaishali,2025-02-13 12:45:00,"Final presentation with both rational approach (v3) and new emotional concept for consideration.",update,SanPh2_Campaign_Final.pdf
+266,108,Vaishali,Sainal,2025-02-20 09:15:00,"We need a logo design for Province D Olympia project. Need elegant but impactful approach.",assignment,None
+267,108,Sainal,Vaishali,2025-02-23 17:30:00,"Sharing two logo concepts for review.",update,PDO_Logo_Options.pdf
+268,108,Sainal,Vaishali,2025-02-24 09:23:00,"Which option out of these two do you prefer?",question,None
+269,108,Vaishali,Sainal,2025-02-24 09:45:00,"Option 1 is approved. Please create files in all required formats.",approval,None
+270,109,Vaishali,Sainal,2025-02-20 14:30:00,"Need OOH & WhatsApp teasers for PDO project with investment angle.",assignment,None
+271,109,Sainal,Vaishali,2025-02-24 13:45:00,"Draft teasers attached. Focus on plot investment value proposition.",update,PDO_Teasers_Draft.pdf
+272,109,Sainal,Vaishali,2025-02-24 16:20:00,"RERA rahega in ooh and WhatsApp teaser?",question,None
+273,109,Vaishali,Sainal,2025-02-24 16:25:00,"Nope, these are pre-launch teasers.",clarification,None
+274,109,Sainal,Vaishali,2025-02-24 18:35:00,"Final teaser files attached. Both OOH and WhatsApp versions included.",update,PDO_Teasers_Final.zip
+275,110,Vaishali,Team,2025-02-21 11:15:00,"Need social media ideas for multiple platforms. Static, Carousel, Story and Video (1 each) for FP, San, KR projects.",assignment,None
+276,110,Yuvraj,Sainal,2025-02-25 14:10:00,"Sanc status update?",question,None
+277,110,Sainal,Yuvraj,2025-02-25 14:15:00,"Work in progress. Will share complete package today.",update,None
+278,110,Sainal,Vaishali,2025-02-25 17:40:00,"Social media concepts for all platforms and projects attached.",update,SM_Concepts_Package.zip
+279,111,Vaishali,Sainal,2025-02-21 11:45:00,"Develop campaign concepts for Sanctuary Phase 2. Need elevation in positioning from Phase 1.",assignment,None
+280,111,Sainal,Vaishali,2025-02-25 16:25:00,"Campaign text options with tagline variations attached.",update,SanPh2_Campaign_Text.docx
+281,111,Sainal,Vaishali,2025-02-27 14:30:00,"Three complete campaign route options attached in PPT format.",update,SanPh2_Campaign_Routes.pptx
+282,111,Vaishali,Sainal,2025-02-28 09:45:00,"The yellow font color isn't working well on white background. Otherwise routes look promising.",feedback,None
+283,112,Vaishali,Sainal,2025-02-24 10:20:00,"Top priority: Create 4/6 pager opportunity document for PDO launch. Need by next Monday.",assignment,None
+284,112,Sainal,Vaishali,2025-02-24 15:45:00,"Sharing Google Doc link with tentative opp doc copy for review.",update,PDO_OppDoc_Copy.gdoc
+285,112,Vaishali,Sainal,2025-02-25 09:15:00,"Content looks good. Please go ahead and help us with sharing the layout by EOD.",approval,None
+286,112,Sainal,Vaishali,2025-03-03 16:30:00,"OPP DOC 24FEB.pdf attached for final review.",update,OPP_DOC_24FEB.pdf
+287,112,Vaishali,Sainal,2025-03-03 17:15:00,"Document flow looks good. Few small text corrections needed in investment section.",feedback,None
+288,113,Vaishali,Sainal,2025-02-24 10:45:00,"Need standee and canopy designs for PDO project site. Premium feel essential.",assignment,None
+289,113,Sainal,Vaishali,2025-02-27 13:10:00,"What are the dimensions for the standee and canopy?",question,None
+290,113,Vaishali,Sainal,2025-02-27 13:15:00,"Standee 3x6, Canopy 6x6x6",dimensions,None
+291,113,Sainal,Vaishali,2025-02-28 11:30:00,"Design concepts for standee and canopy attached. Three style options provided.",update,PDO_Standee_Canopy.pdf
+292,113,Vaishali,Sainal,2025-02-28 13:45:00,"Going with Option 1. Please send print-ready files to vendor.",approval,None
+293,114,Vaishali,Sainal,2025-02-25 09:30:00,"Need WhatsApp creatives with IPO theme for PDO project. Previously approved route.",assignment,None
+294,114,Sainal,Vaishali,2025-02-25 10:15:00,"Second aur third launch ka kya rahega?",question,None
+295,114,Vaishali,Sainal,2025-02-25 10:20:00,"Focus on first launch only for now. We'll plan others later.",clarification,None
+296,114,Sainal,Vaishali,2025-02-25 14:45:00,"Draft WhatsApp creatives with investment theme attached.",update,PDO_WA_Drafts.pdf
+297,114,Vaishali,Sainal,2025-02-27 09:15:00,"These are approved. Please share final files with sales team.",approval,None
+298,115,Yuvraj,Sainal,2025-02-25 11:30:00,"Happy streets AV.... get on it asap. We need to showcase Season 3 success.",assignment,None
+299,115,Sainal,Yuvraj,2025-02-25 11:35:00,"100 GB ka stuff hai. Editor is making this. Will coordinate with him on script.",update,None
+300,115,Sainal,Yuvraj,2025-03-05 14:20:00,"05.03.25 Video Styles.docx attached with script and style direction.",update,Video_Styles.docx
+301,115,Yuvraj,Sainal,2025-03-05 15:10:00,"Good overall but need more emphasis on community impact in middle section.",feedback,None
+302,115,Sainal,Yuvraj,2025-03-05 16:30:00,"Revised script with expanded community impact section and testimonial integration.",update,Video_Script_Rev.docx
+303,116,Vaishali,Sainal,2025-02-27 14:15:00,"Need PDO GIF combining 5 teasers - PLOT/LAND/ASSET/GROW/ROI in sequence.",assignment,None
+304,116,Sainal,Vaishali,2025-03-10 13:45:00,"Working on this now that all teasers are approved. Will have it today.",update,None
+305,116,Sainal,Vaishali,2025-03-12 10:30:00,"GIF attached with sequence as requested. Each frame displays for 3 seconds.",update,PDO_Teaser_GIF.gif
+306,116,Vaishali,Sainal,2025-03-12 11:15:00,"Perfect! This works well for our email campaign.",approval,None
+307,117,Vaishali,Sainal,2025-02-27 15:30:00,"Need print ad and OOH creative for Sanctuary Phase 2. Consistent with campaign direction.",assignment,None
+308,117,Sainal,Vaishali,2025-02-27 17:45:00,"Multiple design options attached for review.",update,SanPh2_Print_OOH.pdf
+309,117,Vaishali,Sainal,2025-02-28 11:20:00,"Option 2 looks best but let's use a different font style for the headlines.",feedback,None
+310,117,Sainal,Vaishali,2025-02-28 14:10:00,"Revised font style in Option 2 as requested. Also adjusted spacing.",update,SanPh2_Option2_Rev.pdf
+311,117,Vaishali,Sainal,2025-02-28 15:30:00,"This looks great. Approved for production.",approval,None
+312,118,Vaishali,Sainal,2025-02-28 13:45:00,"Create teasers for different days before launch. Need: Coming Soon, 3 Days, 2 Days, 1 Day.",assignment,None
+313,118,Sainal,Vaishali,2025-02-28 10:30:00,"Teaser designs for each day attached. Consistent look with countdown emphasis.",update,SanPh2_Teasers.pdf
+314,118,Vaishali,Sainal,2025-02-28 11:15:00,"3 Days version needs revision - make the number larger and more prominent.",feedback,None
+315,118,Sainal,Vaishali,2025-02-28 12:30:00,"Revised teasers with enhanced number visibility in countdown versions.",update,SanPh2_Teasers_Rev.pdf
+316,119,Vaishali,Sainal,2025-02-28 11:15:00,"Sharing IMG-20250213-WA0033.jpg - Need backdrop updates. Remove IVR and mention 30:40:30 Payment Plan.",assignment,Backdrop_IMG.jpg
+317,119,Sainal,Vaishali,2025-02-28 14:20:00,"Revised backdrop file attached with IVR removed and payment plan added.",update,Backdrop_Updated.pdf
+318,119,Yuvraj,Sainal,2025-02-28 15:00:00,"Good to go. Send to production.",approval,None
+319,120,Vaishali,Sainal,2025-03-03 09:30:00,"San Phase 1 - Application Form Change needed. Please update with new options.",assignment,None
+320,120,Sainal,Vaishali,2025-03-03 09:45:00,"Is this the application form?",question,ApplicationForm.pdf
+321,120,Vaishali,Sainal,2025-03-03 09:50:00,"Yes, needs to include Phase 2 unit options now.",confirmation,None
+322,120,Sainal,Vaishali,2025-03-03 14:15:00,"Updated application form with Phase 2 options added.",update,ApplicationForm_Updated.pdf
+323,121,Yuvraj,Sainal,2025-03-03 10:15:00,"Any update on Happy Streets video status?",question,None
+324,121,Sainal,Yuvraj,2025-03-03 10:30:00,"I'll share the YouTube link for review in an hour.",update,None
+325,121,Sainal,Yuvraj,2025-03-03 11:45:00,"Review link: https://youtu.be/example - please provide feedback",update,None
+326,121,Vaishali,Sainal,2025-03-07 14:30:00,"Video looks good overall but text needs to stay on screen longer and some timing adjustments.",feedback,None
+327,121,Sainal,Vaishali,2025-03-07 16:15:00,"Revised video with text timing adjustments and extended captions.",update,HappyStreets_Rev.mp4
+328,122,Vaishali,Archita,2025-03-04 11:30:00,"Need PDO RERA announcement video with slideup effect.",assignment,None
+329,122,Archita,Vaishali,2025-03-04 15:45:00,"RERA video draft attached for review.",update,RERA_Video_Draft.mp4
+330,122,Vaishali,Archita,2025-03-05 09:30:00,"Some text appears cut off at the bottom. Please adjust layout.",feedback,None
+331,122,Archita,Vaishali,2025-03-05 11:15:00,"Revised video with text position adjusted to ensure full visibility.",update,RERA_Video_Rev.mp4
+332,122,Vaishali,Archita,2025-03-05 12:30:00,"Perfect! Approved for distribution.",approval,None
+333,123,Vaishali,Sainal,2025-03-04 14:00:00,"Need opportunity document update for Sanctuary Phase 2. Highlight premium features.",assignment,None
+334,123,Sainal,Vaishali,2025-03-07 13:15:00,"Updated opportunity document with Phase 2 premium features highlighted.",update,SanPh2_OppDoc.pdf
+335,123,Vaishali,Sainal,2025-03-07 14:30:00,"Looks good. Please also share editable source file for future updates.",approval,None
+336,124,Vaishali,Sainal,2025-03-04 14:30:00,"Need 4 specific WhatsApp messages: 'Coming Soon,' '3 Days to Go,' '2 Days to Go,' 'Launching Tomorrow'",assignment,None
+337,124,Sainal,Vaishali,2025-03-05 13:30:00,"Will have drafts for all four messages by end of day.",update,None
+338,124,Sainal,Vaishali,2025-03-06 10:15:00,"All four WhatsApp creatives attached. Consistent design with countdown approach.",update,SanPh2_WA_Series.pdf
+339,124,Vaishali,Sainal,2025-03-06 11:30:00,"Text in the 2 Days version needs adjustment - alignment is off.",feedback,None
+340,124,Sainal,Vaishali,2025-03-06 12:15:00,"Revised version with text alignment corrected in all creatives.",update,SanPh2_WA_Series_Rev.pdf
+341,125,Vaishali,Sainal,2025-03-04 15:15:00,"Need standee designs for PDO project. Premium investment theme consistent with campaign.",assignment,None
+342,125,Sainal,Vaishali,2025-03-06 13:45:00,"Standee design options attached. Three different approaches.",update,PDO_Standee_Options.pdf
+343,125,Vaishali,Sainal,2025-03-06 15:30:00,"Option 1 works best but let's add more emphasis on the ROI figures.",feedback,None
+344,125,Sainal,Vaishali,2025-03-06 16:45:00,"Revised standee with enhanced ROI display and larger figures.",update,PDO_Standee_Rev.pdf
+345,126,Vaishali,Sainal,2025-03-05 10:15:00,"Need updates to PDO ads - both front and back pages. Change disclaimer text and add RERA.",assignment,None
+346,126,Sainal,Vaishali,2025-03-05 13:30:00,"Revised front and back page designs with updated disclaimers and RERA information.",update,PDO_Ad_Rev.pdf
+347,126,Vaishali,Sainal,2025-03-06 09:45:00,"Approved for print. Please send to publisher directly.",approval,None
+348,127,Vaishali,Sainal,2025-03-06 10:45:00,"Need feedback from the Sales Team on this OOH's logo visibility. Create alternative layouts if needed.",feedback,None
+349,127,Sainal,Vaishali,2025-03-06 11:15:00,"What's the zone?",question,None
+350,127,Vaishali,Sainal,2025-03-06 11:20:00,"Noida Expressway - high speed viewing.",clarification,None
+351,127,Sainal,Vaishali,2025-03-06 14:30:00,"Three layout options attached with varying logo placement and size.",update,OOH_Layout_Options.pdf
+352,127,Vaishali,Sainal,2025-03-06 15:45:00,"Option 3 works best. Logo is visible and content is clear even at distance/speed.",feedback,None
+353,127,Sainal,Vaishali,2025-03-06 16:30:00,"Final artwork with Option 3 layout attached. Ready for production.",update,OOH_Final_Artwork.pdf
+354,128,Vaishali,Sainal,2025-03-07 09:45:00,"San Ph 2 Brochure needed. Comprehensive with all specifications and floor plans.",assignment,None
+355,128,Sainal,Vaishali,2025-03-07 10:30:00,"Do you have a detailed brief for this? Page count, specific sections needed?",question,None
+356,128,Vaishali,Sainal,2025-03-07 11:15:00,"16 pages, similar structure to Phase 1 but highlighting premium features and payment plans.",clarification,None
+357,128,Sainal,Vaishali,2025-03-10 14:30:00,"2479-24 Sanctuary 105 Brochure - Phase II.pdf attached for review.",update,San_Ph2_Brochure.pdf
+358,128,Vaishali,Sainal,2025-03-10 16:15:00,"Great work. Just change floor plan labels on pages 8-9 to match unit types.",feedback,None
+359,140,Vaishali,Sainal,2025-03-11 10:15:00,"Need certificates for top channel partners in 4 categories - Platinum, Gold, Star, and Rising Star.",assignment,None
+360,140,Sainal,Vaishali,2025-03-11 13:30:00,"Certificate designs for all four categories attached.",update,CP_Certificates.pdf
+361,140,Yuvraj,Sainal,2025-03-11 14:45:00,"The designs look too similar. Need more distinct color differentiation between categories.",feedback,None
+362,140,Sainal,Yuvraj,2025-03-11 16:30:00,"Revised certificates with distinct color schemes for each category: gold for Platinum, silver for Gold, bronze for Star, blue for Rising Star.",update,CP_Certificates_Rev.pdf
+363,141,Vaishali,Sainal,2025-03-11 11:30:00,"Need demographic survey form like we did for Sanctuary. 1000 Rs. voucher offer.",reference,None
+364,141,Sainal,Vaishali,2025-03-11 13:15:00,"How long is the voucher valid for? Same 100 customers limit?",question,None
+365,141,Vaishali,Sainal,2025-03-11 13:20:00,"Yes, valid for 1st 100 customers, same structure.",confirmation,None
+366,141,Sainal,Vaishali,2025-03-11 15:45:00,"Survey creative attached with incentive offer highlighted.",update,PDO_Survey.pdf
+367,150,Nikhil,Meenakshi,2025-04-15 10:30:00,"Need A3 size poster for lift branding at upcoming site visit. Focus on amenities.",assignment,None
+368,150,Meenakshi,Nikhil,2025-04-15 14:15:00,"Initial design attached for review. Highlighting premium features.",update,Lift_Poster_Draft.pdf
+369,150,Yuvraj,Meenakshi,2025-04-15 15:30:00,"Show more of our renders and less text. Focus on lifestyle imagery.",feedback,None
+370,150,Meenakshi,Yuvraj,2025-04-17 11:45:00,"Revised design with larger renders and minimal text as suggested.",update,Lift_Poster_Rev.pdf
+371,151,Vaishali,Meenakshi,2025-04-15 10:45:00,"Need LED Standee designs with pixels: Width = 256, Height = 768",dimensions,None
+372,151,Vaishali,Meenakshi,2025-04-15 11:15:00,"Sharing render link for imagery to use in standees.",reference,Renders_Link.url
+373,151,Sainal,Vaishali,2025-04-15 14:30:00,"Headline options for 8 different standees attached.",update,Standee_Headlines.docx
+374,151,Vaishali,Sainal,2025-04-15 15:00:00,"Selected 6 options to move forward with. Please finalize designs by EOD.",feedback,None
+375,151,Meenakshi,Vaishali,2025-04-15 17:30:00,"All 6 LED standee designs completed and attached.",update,LED_Standees.zip
+376,152,Vaishali,Meenakshi,2025-04-15 11:45:00,"Need project WhatsApp messages for FP & KR. Focus on commercial space for KR.",assignment,None
+377,152,Meenakshi,Vaishali,2025-04-16 13:20:00,"Any specific offers or incentives to highlight in these creatives?",question,None
+378,152,Vaishali,Meenakshi,2025-04-16 14:15:00,"For KR, focus on rental yield potential. For FP, highlight limited inventory remaining.",instruction,None
+379,152,Meenakshi,Vaishali,2025-04-17 10:30:00,"WhatsApp creative options attached for both projects.",update,FP_KR_WhatsApp.pdf
+380,152,Yuvraj,Meenakshi,2025-04-17 11:15:00,"KR creative looks good. FP needs more emphasis on exclusivity of remaining units.",feedback,None
+381,152,Meenakshi,Yuvraj,2025-04-17 12:45:00,"Revised FP creative with 'Limited Luxury Inventory' messaging.",update,FP_WhatsApp_Rev.pdf
+382,153,Vaishali,Sainal,2025-04-16 09:30:00,"Need front and back page updates for San Ph 2 ad. Revised content in email.",assignment,None
+383,153,Meenakshi,Vaishali,2025-04-16 11:45:00,"Draft layouts for front and back pages attached.",update,SanPh2_Ad_Drafts.pdf
+384,153,A.K Aquil Khan,Meenakshi,2025-04-16 13:30:00,"Delhi times okay. Please send final files.",approval,None
+385,153,A.K Aquil Khan,Meenakshi,2025-04-16 13:35:00,"HT okay as well.",approval,None
+386,153,Meenakshi,A.K Aquil Khan,2025-04-16 15:45:00,"Final print files sent to Amit at HT directly to meet 4pm deadline.",confirmation,None
+387,155,Vaishali,Meenakshi,2025-04-21 10:15:00,"Priority task: Create A4 Leaflet for Khyber Range with key features and location advantages.",assignment,None
+388,155,Meenakshi,Vaishali,2025-04-21 14:30:00,"Two layout options attached for your review.",update,KR_Leaflet_Options.pdf
+389,155,Vaishali,Meenakshi,2025-04-21 16:15:00,"Option 1 preferred, but please adjust the content flow and add more white space.",feedback,None
+390,155,Meenakshi,Vaishali,2025-04-22 11:30:00,"Final revision with adjusted spacing and content flow attached.",update,KR_Leaflet_Final.pdf
+391,156,Vaishali,Sainal,2025-04-21 14:15:00,"Need payment details creative for San Ph 2. Make payment plans very prominent.",assignment,None
+392,156,Sainal,Vaishali,2025-04-21 16:30:00,"Payment details creative attached with prominent display of all payment options.",update,SanPh2_Payment.pdf
+393,156,Vaishali,Sainal,2025-04-21 17:15:00,"Make the 30:40:30 option more highlighted as it's the most popular.",feedback,None
+394,156,Sainal,Vaishali,2025-04-22 10:30:00,"Revised creative with enhanced focus on 30:40:30 payment plan.",update,SanPh2_Payment_Rev.pdf

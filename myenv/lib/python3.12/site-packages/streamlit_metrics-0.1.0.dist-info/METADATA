@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: streamlit-metrics
+Version: 0.1.0
+Summary: Component for displaying important figures on a Streamlit dashboard
+Home-page: https://github.com/samdobson/streamlit_metrics
+Author: Sam Dobson
+Author-email: 1309834+samdobson@users.noreply.github.com
+License: MIT license
+Keywords: streamlit
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit (>=0.68)
+
+A Streamlit component for displaying important figures.
+
+![Streamlit Metrics Demo](streamlit-metrics.png)
+
+## Installation
+
+```python
+pip install streamlit-metrics
+```
+
+## Usage
+
+```python
+import streamlit as st
+from streamlit_metrics import metric, metric_row
+
+st.write('## Here's a single figure')
+metric("Metric 0", 0)
+
+st.write('## ... and here's a row of them')
+metric_row(
+    {
+        "Metric 1": 100,
+        "Metric 2": 200,
+        "Metric 3": 300,
+        "Metric 4": 400,
+        "Metric 5": 500,
+    }
+)
+```
+
+

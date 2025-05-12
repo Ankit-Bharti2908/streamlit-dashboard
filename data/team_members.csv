@@ -1,11 +1,10 @@
-member_id,name,role,start_date,department,expertise
-1,Vaishali,Marketing Head,2024-01-01,Marketing,Project Management
-2,Yuvraj,Creative Director,2024-01-01,Creative,Conceptual Design
-3,Garvit,Technical Manager,2024-01-01,Marketing,Print Advertising
-4,Sainal,Lead Creative Designer,2024-01-01,Creative,Visual Design
-5,Archita,Documentation Specialist,2024-01-01,Creative,Technical Documents
-6,Malvika,Junior Designer,2024-08-01,Creative,Support Design
-7,Meenakshi,Designer,2025-04-01,Creative,Digital Design
-8,Nikhil,Site Manager,2025-03-01,Operations,On-Site Marketing
-9,A.K Aquil Khan,Commercial Manager,2024-01-01,Sales,Commercial Specifications
-10,Creative Team,Design Group,2024-01-01,Creative,Collaborative Design
+member_id,name,role,team,joined_date,email,specialization
+1,Sainal,Senior Designer,Creative,2023-04-15,sainal@example.com,Digital & OOH
+2,Archita,Designer,Creative,2023-06-10,archita@example.com,Print & Documentation
+3,Malvika,Junior Designer,Creative,2024-09-01,malvika@example.com,Commercial Projects
+4,Meenakshi,Intern,Creative,2025-01-15,meenakshi@example.com,Digital Media
+5,Yuvraj,Creative Director,Management,2022-11-01,yuvraj@example.com,Campaign Strategy
+6,Vaishali,Marketing Manager,Management,2023-01-15,vaishali@example.com,Residential Projects
+7,Garvit,Project Manager,Management,2023-03-01,garvit@example.com,Mixed-use Projects
+8,A.K Aquil Khan,Commercial Head,Management,2022-10-01,aquil@example.com,Commercial Projects
+9,Creative Team,Group,Creative,2022-10-01,creative@example.com,Collaborative Projects
