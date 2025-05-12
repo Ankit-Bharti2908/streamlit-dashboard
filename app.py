@@ -271,8 +271,6 @@ def plot_monthly_task_volume(tasks_df):
                  height=500)
     
     fig.update_layout(
-        legend=dict(orientation="h", yanchor="bottom", y=1.2, xanchor="right", x=1),
-        xaxis_title="",
         yaxis_title="Number of Tasks",
         barmode='stack',
         margin=dict(l=40, r=40, t=80, b=40)
