@@ -374,7 +374,6 @@ def plot_content_type_by_project(tasks_df):
                  height=500)
     
     fig.update_layout(
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
         xaxis_title="",
         yaxis_title="Number of Tasks",
         barmode='group',
@@ -1315,14 +1314,7 @@ def analyze_team_specialization(tasks_df, team_members_df, content_types_df):
                 height=400,
                 xaxis_title="",
                 yaxis_title="Number of Tasks",
-                margin=dict(l=40, r=40, t=40, b=40),
-                legend=dict(
-                    orientation="h",
-                    yanchor="bottom",
-                    y=1.02,
-                    xanchor="right",
-                    x=1
-                )
+                margin=dict(l=40, r=40, t=40, b=40)
             )
             
             st.plotly_chart(fig, use_container_width=True)
@@ -1738,7 +1730,6 @@ def main():
                 )
                 
                 fig.update_layout(
-                    legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1),
                     xaxis_title="",
                     yaxis_title="Number of Tasks",
                     margin=dict(l=40, r=40, t=60, b=40)
