@@ -296,7 +296,6 @@ def plot_task_assignment(tasks_df):
                      hole=0.4)
         
         fig.update_layout(
-            legend=dict(orientation="v", yanchor="middle", y=0.5, xanchor="right", x=1.1),
             height=400,
             margin=dict(l=20, r=120, t=60, b=20)
         )
@@ -312,7 +311,6 @@ def plot_task_assignment(tasks_df):
                      hole=0.4)
         
         fig.update_layout(
-            legend=dict(orientation="v", yanchor="middle", y=0.5, xanchor="right", x=1.1),
             height=400,
             margin=dict(l=20, r=120, t=60, b=20)
         )
